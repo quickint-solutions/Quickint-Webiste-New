@@ -9,34 +9,56 @@ const CaseStudiesTwo = () => {
     const caseStudies = [
         {
             imgSrc: "assets/images/case-studies/01.webp",
-            category: "NodeJS Development, Security",
-            title: "Rocken SaaS App",
-            link: "case-studies-single.html",
-        },
-        {
-            imgSrc: "assets/images/case-studies/02.webp",
-            category: "NodeJS Development, Security",
-            title: "Software SaaS App",
-            link: "case-studies-single.html",
+            category: "Industry:B2B Pharmacy",
+            title: "1Deal App",
+            link: "case-studies-single",
         },
         {
             imgSrc: "assets/images/case-studies/03.webp",
-            category: "NodeJS Development, Security",
-            title: "Rocken SaaS App",
-            link: "case-studies-single.html",
+            category: "Industry:Healthcare",
+            title: "EXACT LIMS",
+            link: "case-studies-exact-lims",
+        },
+        {
+            imgSrc: "assets/images/case-studies/02.webp",
+            category: "Industry:Animal feed",
+            title: "Cattle Feed",
+            link: "case-studies-cattle-feed",
         },
         {
             imgSrc: "assets/images/case-studies/04.webp",
-            category: "NodeJS Development, Security",
-            title: "Technology App",
-            link: "case-studies-single.html",
+            category: "Industry:Dehydrated Food Products",
+            title: "Husk ‘N’ Spices",
+            link: "case-studies-husk-spices",
         },
         {
-            imgSrc: "assets/images/case-studies/01.webp",
-            category: "NodeJS Development, Security",
-            title: "Bit Coin App",
-            link: "case-studies-single.html",
+            imgSrc: "assets/images/case-studies/Maan-Logo1-1024x599.png",
+            category: "Industry:Industrial License Consultant",
+            title: "Maan Associates",
+            link: "case-studies-maan",
         },
+
+        {
+            imgSrc: "assets/images/case-studies/Sony-world-logo-1024x599.png",
+            category: "Industry:Modern Electronics",
+            title: "Sony World",
+            link: "case-studies-sony",
+        },
+
+        {
+            imgSrc: "assets/images/case-studies/Orijin-logo-1-1024x599.png",
+            category: "Industry:Food Engine",
+            title: "Orijin",
+            link: "case-studies-orijin",
+        },
+        {
+            imgSrc: "assets/images/case-studies/techfenix-logo-21.png",
+            category: "Industry:Cybersecurity",
+            title: "TECHFENIX",
+            link: "case-studies-techfenix",
+        }
+
+
     ];
 
     return (
@@ -94,7 +116,7 @@ const CaseStudiesTwo = () => {
                         </div>
                     </div>
                     <div className="col-lg-12 justify-content-center d-flex mt--80">
-                        <a href="case-studies.html" className="rts-btn btn-border btn-bold">
+                        <a href="case-studies" className="rts-btn btn-border btn-bold">
                             More projects
                             <ReactSVG
                                 src="assets/images/service/icons/13.svg"
