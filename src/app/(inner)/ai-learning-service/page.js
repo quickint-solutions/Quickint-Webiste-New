@@ -5,11 +5,12 @@ import FooterOne from "@/components/footer/FooterOne";
 import FeatureTwo from "@/components/feature/FeatureTwo";
 import TestimonialsFive from "@/components/testimonials/TestimonialsFive";
 import MoreSolutions from "@/components/service-component/MoreSolution";
+import HeaderOne from "@/components/header/HeaderOne";
 
 export default function Home() {
     return (
         <div className='#'>
-
+            <HeaderOne />
             <div>
                 <div className="container-large">
                     {/* service area start */}
