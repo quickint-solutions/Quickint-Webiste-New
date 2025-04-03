@@ -36,7 +36,7 @@ function page() {
                                         </div>
                                         <p>
                                             TechFenix delivers innovative cybersecurity solutions, shielding businesses from digital threats while ensuring robust data security and compliance.</p>
-                                        <a href="#" className="rts-btn btn-border">
+                                        <a href="https://techfenix.com/" className="rts-btn btn-border">
                                             View website
                                             <img src="assets/images/service/icons/13.svg" alt="arrow" />
                                         </a>

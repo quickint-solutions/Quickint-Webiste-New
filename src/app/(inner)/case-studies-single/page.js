@@ -37,7 +37,7 @@ function page() {
                                         <p>
                                             1Deal B2B Pharmacy simplifies wholesale pharmaceutical transactions, offering reliable, cost-effective solutions for businesses to access quality medications and supplies with ease.
                                         </p>
-                                        <a href="#" className="rts-btn btn-border">
+                                        <a href="https://1deal.co.in/" target="_blank" className="rts-btn btn-border">
                                             View website
                                             <img src="assets/images/service/icons/13.svg" alt="arrow" />
                                         </a>

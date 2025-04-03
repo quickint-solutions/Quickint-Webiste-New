@@ -38,7 +38,7 @@ function page() {
                                             Husk ‘N’ Spices offers premium quality spices and herbs, delivering fresh, authentic flavors directly from farm to your kitchen.
                                         </p>
 
-                                        <a href="#" className="rts-btn btn-border">
+                                        <a href="https://www.edgeinfinium.com/husk-n-spices" className="rts-btn btn-border">
                                             View website
                                             <img src="assets/images/service/icons/13.svg" alt="arrow" />
                                         </a>

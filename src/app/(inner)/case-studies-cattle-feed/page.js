@@ -38,7 +38,7 @@ function page() {
                                             Cattle Feed project offers optimized nutritional solutions for livestock, enhancing growth, productivity, and overall health with scientifically formulated feed blends.
                                         </p>
 
-                                        <a href="#" className="rts-btn btn-border">
+                                        <a href="https://www.edgeinfinium.com/cattle-feed" className="rts-btn btn-border">
                                             View website
                                             <img src="assets/images/service/icons/13.svg" alt="arrow" />
                                         </a>
