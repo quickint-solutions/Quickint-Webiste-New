@@ -8,12 +8,16 @@ import "swiper/swiper-bundle.css";
 
 const BrandArea = () => {
     const brandImages = [
-        "assets/images/brand/01.webp",
-        "assets/images/brand/02.webp",
-        "assets/images/brand/03.webp",
-        "assets/images/brand/04.webp",
-        "assets/images/brand/05.webp",
-        "assets/images/brand/06.webp",
+        "assets/images/brand/1deallogo.png",
+        "assets/images/brand/carelogo.png",
+        "assets/images/brand/cattlefeed.png",
+        "assets/images/brand/edgeinfinium.png",
+        "assets/images/brand/greendoorslogo.png",
+        "assets/images/brand/hitechlogo.png",
+        "assets/images/brand/maanlogo.png",
+        "assets/images/brand/publiclogo.png",
+        "assets/images/brand/sonylogo.png",
+        "assets/images/brand/willwarelogo.png",
     ];
 
     return (
