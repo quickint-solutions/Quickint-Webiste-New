@@ -8,29 +8,35 @@ import "swiper/swiper-bundle.css";
 const TestimonialsTwo = () => {
     const testimonials = [
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "Quickint Solutions transformed our slow operations into a streamlined digital process. Their understanding of our needs and expertise was impressive.",
             imgSrc: "assets/images/testimonials/01.png",
-            name: "Marcus Freeman",
-            designation: "CTO of SwiftPay Financial",
+            name: "Paras Patel",
+            designation: "CEO of hi-tech laboratories pvt ltd",
         },
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "Neel was an excellent full-stack developer who quickly grasped our requirements. His work significantly improved our project outcomes.",
             imgSrc: "assets/images/testimonials/02.png",
-            name: "John Freeman",
-            designation: "CTO of SwiftPay Financial",
+            name: "Rishabh Rastogi",
+            designation: "CTO of Green Doors LLC",
         },
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "The IT solutions provided by Quickint Solutions have been invaluable, saving us time and improving our customer interactions remarkably.",
             imgSrc: "assets/images/testimonials/01.png",
-            name: "Marcus Freeman",
-            designation: "CTO of SwiftPay Financial",
+            name: "Aarav Gupta",
+            designation: "Founder of HealthCare Plus",
         },
         {
-            text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste. Their ongoing support has been invaluable.",
+            text: "I’m extremely pleased with the outstanding work from Neel Patel and his team; their dedication and expertise were evident from start to finish.",
             imgSrc: "assets/images/testimonials/02.png",
-            name: "John Freeman",
-            designation: "CTO of SwiftPay Financial",
+            name: "Vijay Shukla",
+            designation: "CEO of Edge Enfinium, Husk 'N' Spices",
         },
+        {
+            text: "The exceptional work by Neel Patel and his team was critical to our project's success. Their attention to detail was remarkable.",
+            imgSrc: "assets/images/testimonials/01.png",
+            name: "Avinash Nagori",
+            designation: "CEO of Maan Associates",
+        }
     ];
 
     return (

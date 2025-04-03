@@ -192,7 +192,7 @@ function ServiceTwo() {
                             </div>
                             {/* single service end */}
                         </div>
-                        <div className="col-lg-12 d-flex justify-content-center mt--80">
+                        {/* <div className="col-lg-12 d-flex justify-content-center mt--80">
                             <a href="service.html" className="btn-bold rts-btn btn-border ">
                                 View all solutions
                                 <ReactSVG
@@ -200,7 +200,7 @@ function ServiceTwo() {
                                     alt="arrow"
                                 />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

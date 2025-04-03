@@ -27,37 +27,20 @@ export default function Home() {
                             <div className="col-lg-12">
                                 <div className="inner-content">
                                     <div className="top">
-                                        <h1 className="title">Ai Learning Service</h1>
+                                        <h1 className="title">Cloud Services</h1>
                                         <p className="disc">
-                                            Ai Learning Service offers innovative solutions, streamlining processes, enhancing efficiency, ensuring growth, and driving digital transformation.
+                                            Transform your business with scalable, secure, and efficient cloud solutions designed to enhance flexibility and performance.
                                         </p>
                                     </div>
                                     <div className="mid-content">
                                         <p className="disc">
-                                            Wer your strategic partners in digital transformation. With
-                                            over a decade of experience and a team of certified experts, we
-                                            deliver tailored solutions that drive growth, enhance
-                                            efficiency, and secure your digital assets.
+                                            At QuickInt Solutions, we provide end-to-end cloud services, including Cloud Migration, Infrastructure Management, Security, and Optimization. Our solutions enable businesses to reduce costs, improve efficiency, and scale effortlessly.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            Whether you're looking to migrate to the cloud, optimize existing infrastructure, or enhance security, our team of certified cloud experts ensures a seamless transition with minimal downtime.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            We partner with leading cloud providers such as AWS, Microsoft Azure, and Google Cloud, offering customized solutions that align with your business goals. Stay ahead of the competition with our innovative cloud strategies.
                                         </p>
                                     </div>
                                 </div>
@@ -65,6 +48,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+
                 <div className="service-image-mid-iamge-jarallax-area">
                     <div className="container-large">
                         <div className="row g-5">
@@ -96,31 +80,20 @@ export default function Home() {
                                 <div className="inner-content">
                                     <div className="mid-content">
                                         <p className="disc">
-                                            We are your strategic partners in digital transformation. With
-                                            over a decade of experience and a team of certified experts, we
-                                            deliver tailored solutions that drive growth, enhance
-                                            efficiency, and secure your digital assets.
+                                            We are your strategic partners in digital transformation. With over a decade of experience and a team of certified experts, we deliver tailored IT solutions that drive growth, enhance efficiency, and secure your digital assets.
                                         </p>
                                         <p className="disc">
-                                            Luminous works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            QuickInt Solutions works with businesses of all sizes, from startups to large enterprises. We customize our services to fit each client's unique needs and budget. Our expertise spans a wide range of IT solutions, ensuring seamless integration and maximum business impact.
                                         </p>
                                         <p className="disc">
-                                            Offers a unified platform that fosters innovation while
-                                            providing end-to-end data management. See how we help your team
-                                            solve today’s biggest challenges.
+                                            We invest heavily in ongoing training, research, and partnerships with leading technology providers. Our approach fosters innovation and efficiency, helping your business stay ahead of technological advancements.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
 

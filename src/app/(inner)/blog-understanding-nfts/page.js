@@ -1,11 +1,10 @@
 "use client";
 import BackToTop from "@/components/common/BackToTop";
 import React from "react";
-
 import FooterOne from "@/components/footer/FooterOne";
-import Posts from '@/data/Posts.json';
-import BlogGridMain from './BlogGridMain';
+import Posts from '../../../../src/data/Posts.json';
 import HeaderOne from "@/components/header/HeaderOne";
+import BlogGridnft from "./BlogGridnft";
 function page() {
     return (
         <>
@@ -30,7 +29,7 @@ function page() {
                                     <div key={index} className="col-lg-4 col-md-6 col-sm-12">
                                         <div className="single-blog-area-start border-none">
                                             {
-                                                <BlogGridMain
+                                                <BlogGridnft
                                                     blogCategory={blog.category}
                                                     Slug={blog.slug}
                                                     blogImage={blog.image}

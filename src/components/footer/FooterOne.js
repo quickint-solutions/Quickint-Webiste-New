@@ -12,11 +12,10 @@ function FooterOne() {
                         <div className="col-lg-5 col-md-12">
                             <div className="logo-area">
                                 <Link href="/#" className="logo">
-                                    <img src="/assets/images/logo/logo-1.svg" alt="logo" />
+                                    <img src="/assets/images/logo/Quickint-logo.png" alt="logo" />
                                 </Link>
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
-                                    innovative technology services to businesses of all sizes.
+                                    Quickint Solutions is a premier IT solutions provider, delivering cutting-edge technology services tailored to businesses of all sizes.
                                 </p>
                             </div>
                         </div>
@@ -27,22 +26,22 @@ function FooterOne() {
                                         <p className="parent">Services</p>
                                         <ul>
                                             <li>
-                                                <Link href="/technologies-service">Technologies</Link>
+                                                <Link href="/service-single">Software Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="/ai-learning-service">Ai Learning</Link>
+                                                <Link href="/it-strategies">Web Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="/it-strategies">IT Strategies</Link>
+                                                <Link href="/it-consulting-service">IT Counsulting & Advisory</Link>
                                             </li>
                                             <li>
-                                                <Link href="/it-consulting-service">It Consulting</Link>
+                                                <Link href="/cyber-security-service">Cyber Security</Link>
                                             </li>
                                             <li>
-                                                <Link href="/management-service">Management</Link>
+                                                <Link href="/development-service">Mobile Development</Link>
                                             </li>
                                             <li>
-                                                <Link href="/service-single">Cloud Migration</Link>
+                                                <Link href="/cloud-service">Cloud Services</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -53,18 +52,6 @@ function FooterOne() {
                                         <ul>
                                             <li>
                                                 <Link href="/about">About us</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/career">Careers</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/team">Our Team</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/blog-grid">News</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/partner">Partner</Link>
                                             </li>
                                             <li>
                                                 <Link href="/contact">Contact</Link>
@@ -134,11 +121,11 @@ function FooterOne() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="copyright-wrapper">
-                                <p>© 2024 Luminos. All rights reserved.</p>
+                                <p>© 2025 Quickint Solutions. All rights reserved.</p>
                                 <div className="social-copyright-area">
                                     <ul>
                                         <li aria-label="Visit our Facebook page">
-                                            <Link href="/#">
+                                            <Link href="">
                                                 <i className="fa-brands fa-facebook-f" />
                                             </Link>
                                         </li>
@@ -147,17 +134,18 @@ function FooterOne() {
                                                 <i className="fa-brands fa-twitter" />
                                             </Link>
                                         </li>
-                                        <li aria-label="Visit our Youtube page">
-                                            <Link href="/#">
-                                                <i className="fa-brands fa-youtube" />
-                                            </Link>
-                                        </li>
                                         <li aria-label="Visit our Linkedin page">
-                                            <Link href="/#">
+                                            <Link href="https://www.linkedin.com/in/ineelpatel2384/">
                                                 <i className="fa-brands fa-linkedin" />
                                             </Link>
                                         </li>
+                                        <li aria-label="Visit our Instagram page">
+                                            <Link href="https://www.instagram.com/quickint_solutions?igsh=dWg2Yzh6bHl2Y2gx">
+                                                <i className="fa-brands fa-instagram" />
+                                            </Link>
+                                        </li>
                                     </ul>
+
                                 </div>
                             </div>
                         </div>

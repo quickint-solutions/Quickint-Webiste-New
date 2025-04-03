@@ -1,4 +1,5 @@
 "use client"
+import { ReactSVG } from 'react-svg';
 import React, { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,165 +30,183 @@ function ServiceSix() {
                     </div>
                     <div className="row g-5 mt--50">
                         <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
+                            className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100"
                         >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/39.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">IT Strategies</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                            {/* signle service area start */}
+                            <div className="single-service-style-two">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img src="assets/images/service/icons/15.png" style={{ width: "35px" }} alt="service" />
+                                    </div>
+                                    <div className="bottom">
+                                        <a href="service-single">
+                                            <h3 className="title">
+                                                Software Development
+                                                <img
+                                                    className="injectable"
+                                                    src="assets/images/service/icons/13.svg"
+                                                    alt="service"
+                                                />
+                                            </h3>
+                                            <p className="disc">
+                                                Maximize Efficiency with Quickint Solutions Software Development
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                            {/* single service end */}
                         </div>
                         <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
+                            className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300"
                         >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/40.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Cloud Migration</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                            {/* signle service area start */}
+                            <div className="single-service-style-two">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img src="assets/images/service/icons/14.png" style={{ width: "35px" }} alt="service" />
+                                    </div>
+                                    <div className="bottom">
+                                        <a href="/cyber-security-service">
+                                            <h3 className="title">
+                                                Cyber Security
+                                                <img
+                                                    className="injectable"
+                                                    src="assets/images/service/icons/13.svg"
+                                                    alt="service"
+                                                />
+                                            </h3>
+                                            <p className="disc">
+                                                Benefits of managed Cyber Security services provided by Quickint Solutions
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                            {/* single service end */}
                         </div>
                         <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
+                            className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500"
                         >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/35.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Cyber Security</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                            {/* signle service area start */}
+                            <div className="single-service-style-two">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img src="assets/images/service/icons/12.png" style={{ width: "40px" }} alt="service" />
+                                    </div>
+                                    <div className="bottom">
+                                        <a href="it-strategies">
+                                            <h3 className="title">
+                                                Web Development
+                                                <img
+                                                    className="injectable"
+                                                    src="assets/images/service/icons/13.svg"
+                                                    alt="service"
+                                                />
+                                            </h3>
+                                            <p className="disc">
+
+                                                Benefits of managed Web Development services provided by Quickint Solutions
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                            {/* single service end */}
                         </div>
                         <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"
+                            className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100"
                         >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/36.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Development</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                            {/* signle service area start */}
+                            <div className="single-service-style-two">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img src="assets/images/service/icons/16.png" style={{ width: "28px" }} alt="service" />
+                                    </div>
+                                    <div className="bottom">
+                                        <a href="/development-service">
+                                            <h3 className="title">
+                                                Mobile Development
+                                                <img
+                                                    className="injectable"
+                                                    src="assets/images/service/icons/13.svg"
+                                                    alt="service"
+                                                />
+                                            </h3>
+                                            <p className="disc">
+                                                Elevate Your Business with Quickint Solutions' Mobile Development Services
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                            {/* single service end */}
                         </div>
                         <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
+                            className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300"
                         >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/37.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">It Service</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                            {/* signle service area start */}
+                            <div className="single-service-style-two">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img src="assets/images/service/icons/13.jpg" style={{ width: "40px" }} alt="service" />
+                                    </div>
+                                    <div className="bottom">
+                                        <a href="/it-consulting-service">
+                                            <h3 className="title">
+                                                IT Consulting &amp; Advisory
+                                                <img
+                                                    className="injectable"
+                                                    src="assets/images/service/icons/13.svg"
+                                                    alt="service"
+                                                />
+                                            </h3>
+                                            <p className="disc">
+                                                Unlocking Success with IT Consulting &amp; Advisory Services
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                            {/* single service end */}
                         </div>
                         <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
+                            className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500"
                         >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/38.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Design Service</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
+                            {/* signle service area start */}
+                            <div className="single-service-style-two">
+                                <div className="inner">
+                                    <div className="icon">
+                                        <img src="assets/images/service/icons/12.png" style={{ width: "40px" }} alt="service" />
+                                    </div>
+                                    <div className="bottom">
+                                        <a href="/cloud-service">
+                                            <h3 className="title">
+                                                Cloud Services
+                                                <img
+                                                    className="injectable"
+                                                    src="assets/images/service/icons/13.svg"
+                                                    alt="service"
+                                                />
+                                            </h3>
+                                            <p className="disc">
+                                                Transform Your Business with Quickint Solutions' Cloud Services
+                                            </p>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                            {/* single service end */}
                         </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/39.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Writing</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div
-                            className="col-xl-3 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1000"
-                        >
-                            <div className="single-service-area-4 in-about-page">
-                                <div className="icon">
-                                    <img src="assets/images/service/icons/40.svg" alt="service" />
-                                </div>
-                                <div className="title-area">
-                                    <a href="/service-single">
-                                        <h3 className="title animated fadeIn">Cloud Migratio</h3>
-                                        <img
-                                            className="injectable"
-                                            src="assets/images/service/icons/21.svg"
-                                            alt="icosn"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12 d-flex justify-content-center">
-                            <a href="service.html" className="rts-btn btn-border btn-bold mt--80">
+                        {/* <div className="col-lg-12 d-flex justify-content-center mt--80">
+                            <a href="service.html" className="btn-bold rts-btn btn-border ">
                                 View all solutions
-                                <img src="assets/images/service/icons/13.svg" alt="arrow" />
+                                <ReactSVG
+                                    src="assets/images/service/icons/13.svg"
+                                    alt="arrow"
+                                />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

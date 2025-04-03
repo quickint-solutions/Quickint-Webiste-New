@@ -1,68 +1,68 @@
 [
-    {
-        "id": 1,
-        "slug": "Future-of-cloud-computing1",
-        "image": "01.webp",
-        "bannerImg": "/assets/images/blog/01.webp",
-        "category": "Business Solution",
-        "title": "Future of cloud computing",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 2,
-        "slug": "UX-review-presentations",
-        "image": "02.webp",
-        "bannerImg": "/assets/images/blog/02.webp",
-        "category": "Business Solution",
-        "title": "UX review presentations",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 3,
-        "slug": "protecting-your-business",
-        "image": "03.webp",
-        "bannerImg": "/assets/images/blog/03.webp",
-        "category": "Business Solution",
-        "title": "Protecting your business",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 4,
-        "slug": "story-of-cloud-computing",
-        "image": "14.webp",
-        "bannerImg": "/assets/images/blog/14.webp",
-        "category": "Business Solution",
-        "title": "Story of cloud computing",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 5,
-        "slug": "ui-ux-design-presentations",
-        "image": "15.webp",
-        "bannerImg": "/assets/images/blog/15.webp",
-        "category": "Business Solution",
-        "title": "UI/UX Design presentations",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    },
-    {
-        "id": 6,
-        "slug": "secure-your-Website",
-        "image": "16.webp",
-        "bannerImg": "/assets/images/blog/16.webp",
-        "category": "Business Solution",
-        "title": "Secure your Website",
-        "author": "David Smith",
-        "publishedDate": "15 Jan, 2023",
-        "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
-    }
+  {
+    "id": 1,
+    "slug": "Development-with-SAAS",
+    "image": "saas-1024x683.jpg",
+    "bannerImg": "/assets/images/blog/saas-1024x683.jpg",
+    "category": "Business Solution",
+    "title": "Revolutionizing Software Development with SAAS",
+    "author": "David Smith",
+    "publishedDate": "15 Jan, 2023",
+    "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+  },
+  {
+    "id": 2,
+    "slug": "Understanding-NFTs",
+    "image": "nfts-1024x684.jpg",
+    "bannerImg": "/assets/images/blog/nfts-1024x684.jpg",
+    "category": "Business Solution",
+    "title": "Understanding NFTs: How Non-Fungible Tokens Work...",
+    "author": "David Smith",
+    "publishedDate": "15 Jan, 2023",
+    "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+  },
+  {
+    "id": 3,
+    "slug": "The-Ultimate-Guide",
+    "image": "react-1024x683.jpg",
+    "bannerImg": "/assets/images/blog/react-1024x683.jpg",
+    "category": "Business Solution",
+    "title": "The Ultimate Guide to React Native Mobile App..",
+    "author": "David Smith",
+    "publishedDate": "15 Jan, 2023",
+    "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+  },
+  {
+    "id": 4,
+    "slug": "Heavy-Equipment-Manufacturer",
+    "image": "christina-wocintechchat-com-bVya-9G7iDg-unsplash.jpg",
+    "bannerImg": "/assets/images/blog/christina-wocintechchat-com-bVya-9G7iDg-unsplash.jpg",
+    "category": "Business Solution",
+    "title": "Heavy Equipment Manufacturer Finds Concrete...",
+    "author": "David Smith",
+    "publishedDate": "15 Jan, 2023",
+    "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+  },
+  {
+    "id": 5,
+    "slug": "Impactful-Elements",
+    "image": "keepcoding-lVF2HLzjopw-unsplash.jpg",
+    "bannerImg": "/assets/images/blog/keepcoding-lVF2HLzjopw-unsplash.jpg",
+    "category": "Business Solution",
+    "title": "5 Impactful Elements That Promote IT and...",
+    "author": "David Smith",
+    "publishedDate": "15 Jan, 2023",
+    "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+  },
+  {
+    "id": 6,
+    "slug": "Healthy-Supply-Chain",
+    "image": "kvalifik-3TiNowmZluA-unsplash.jpg",
+    "bannerImg": "/assets/images/blog/kvalifik-3TiNowmZluA-unsplash.jpg",
+    "category": "Business Solution",
+    "title": "Healthy Supply Chain Management Positions...",
+    "author": "David Smith",
+    "publishedDate": "15 Jan, 2023",
+    "descripTion": "Collaboratively pontificate bleeding edge resources with inexpensive methodologies globally initiate multidisciplinary compatible architectures pidiously repurpose leading edge growth strategies with just in time web readiness communicate timely meta services."
+  }
 ]

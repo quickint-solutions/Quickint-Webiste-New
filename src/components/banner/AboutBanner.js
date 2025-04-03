@@ -26,9 +26,9 @@ function AboutBanner() {
                                     <div className="icon-area">
                                         <img src="assets/images/about/icons/01.svg" alt="icon" />
                                     </div>
-                                    <p>Accelerate Growth</p>
+                                    <p>Proven Track Record</p>
                                     <h3 className="title">
-                                        +<span className="counter">46</span>%
+                                        +<span className="counter">5</span>years
                                     </h3>
                                 </div>
                             </div>
@@ -37,9 +37,9 @@ function AboutBanner() {
                                     <div className="icon-area">
                                         <img src="assets/images/about/icons/02.svg" alt="icon" />
                                     </div>
-                                    <p>Community users</p>
+                                    <p>Customer Satisfaction</p>
                                     <h3 className="title">
-                                        <span className="counter">2.5</span>M
+                                        <span className="counter">98</span>%
                                     </h3>
                                 </div>
                             </div>
@@ -48,9 +48,9 @@ function AboutBanner() {
                                     <div className="icon-area">
                                         <img src="assets/images/about/icons/03.svg" alt="icon" />
                                     </div>
-                                    <p>Enhance Security</p>
+                                    <p>We Have Completed</p>
                                     <h3 className="title">
-                                        <span className="counter">89</span>%
+                                        <span className="counter">65</span>+
                                     </h3>
                                 </div>
                             </div>
@@ -59,9 +59,9 @@ function AboutBanner() {
                                     <div className="icon-area">
                                         <img src="assets/images/about/icons/04.svg" alt="icon" />
                                     </div>
-                                    <p>Reduce Costs</p>
+                                    <p>Average Answer Time</p>
                                     <h3 className="title">
-                                        <span className="counter">720</span>
+                                        <span className="counter">30</span>Mins
                                     </h3>
                                 </div>
                             </div>

@@ -27,27 +27,15 @@ function BlogTwo() {
                         >
                             <div className="single-blog-area-start border-none ">
                                 <Link href="/blog-grid/protecting-your-business" className="thumbnail">
-                                    <img src="assets/images/blog/01.webp" alt="blog_iamge" />
+                                    <img src="/assets/images/blog/saas-1024x683.jpg" alt="blog_iamge" />
                                 </Link>
                                 <div className="inner-content-area">
                                     <div className="top-area">
-                                        <span>Cloud Migration</span>
                                         <Link href="/blog-grid/protecting-your-business">
                                             <h3 className="title animated fadeIn">
-                                                Future of cloud computing
+                                                Revolutionizing Software Development with SAAS
                                             </h3>
                                         </Link>
-                                        <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
-                                        </p>
-                                        <div className="bottom-author-area">
-                                            <img src="assets/images/testimonials/01.png" alt="author" />
-                                            <div className="author-area-info">
-                                                <h6 className="title">Marcus Freeman</h6>
-                                                <span>24 Sept 2024</span>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -57,27 +45,15 @@ function BlogTwo() {
                         >
                             <div className="single-blog-area-start border-none">
                                 <Link href="/blog-grid/protecting-your-business" className="thumbnail">
-                                    <img src="assets/images/blog/02.webp" alt="blog_iamge" />
+                                    <img src="/assets/images/blog/nfts-1024x684.jpg" alt="blog_iamge" />
                                 </Link>
                                 <div className="inner-content-area">
                                     <div className="top-area">
-                                        <span>UX Design</span>
                                         <Link href="/blog-grid/protecting-your-business">
                                             <h3 className="title animated fadeIn">
-                                                UX review presentations
+                                                Understanding NFTs: How Non-Fungible Tokens Work..
                                             </h3>
                                         </Link>
-                                        <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
-                                        </p>
-                                        <div className="bottom-author-area">
-                                            <img src="assets/images/testimonials/02.png" alt="author" />
-                                            <div className="author-area-info">
-                                                <h6 className="title">Mular Freeman</h6>
-                                                <span>24 Sept 2024</span>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -87,27 +63,15 @@ function BlogTwo() {
                         >
                             <div className="single-blog-area-start border-none">
                                 <Link href="/blog-grid/protecting-your-business" className="thumbnail">
-                                    <img src="assets/images/blog/03.webp" alt="blog_iamge" />
+                                    <img src="/assets/images/blog/react-1024x683.jpg" alt="blog_iamge" />
                                 </Link>
                                 <div className="inner-content-area">
                                     <div className="top-area">
-                                        <span>Cyber Security</span>
                                         <Link href="/blog-grid/protecting-your-business">
                                             <h3 className="title animated fadeIn">
-                                                Protecting your business
+                                                The Ultimate Guide to React Native Mobile App...
                                             </h3>
                                         </Link>
-                                        <p className="disc">
-                                            How do you create compelling presentations that wow your
-                                            colleagues and impress your managers?
-                                        </p>
-                                        <div className="bottom-author-area">
-                                            <img src="assets/images/testimonials/07.png" alt="author" />
-                                            <div className="author-area-info">
-                                                <h6 className="title">Kamis Freeman</h6>
-                                                <span>24 Sept 2024</span>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +79,7 @@ function BlogTwo() {
                     </div>
                     <div className="row">
                         <div className="col-lg-12">
-                            <Link href="#" className="rts-btn btn-border">
+                            <Link href="/blog-grid" className="rts-btn btn-border">
                                 View More Blog
                                 <ReactSVG
                                     src="assets/images/service/icons/13.svg"

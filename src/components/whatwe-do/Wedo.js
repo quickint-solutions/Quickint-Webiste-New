@@ -10,11 +10,9 @@ function Wedo() {
                         <div className="col-lg-12">
                             <div className="what-we-do-wrapper-about">
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
-                                    innovative technology services to businesses of all sizes. We
-                                    specialize in cloud computing, cybersecurity, data analytics, and
-                                    custom software development.
+                                    QuickInt Solutions is a leading IT solutions company that delivers innovative technology services to businesses of all sizes. We specialize in Cloud Computing, Cybersecurity, Data Analytics, Web & Mobile Development, and Custom Software Development, helping organizations optimize their operations and drive digital transformation.
                                 </p>
+
                             </div>
                         </div>
                     </div>
@@ -27,9 +25,11 @@ function Wedo() {
                             <div className="what-we-do-main-wrapper">
                                 <h5 className="title">What we do?</h5>
                                 <p className="disc">
-                                    We bring together all the necessary technology and services to
-                                    help our clients solve their business problems.
+                                    Our services include: Software Development, Cyber Security, Web Development, Mobile Development, IT Consulting & Advisory, and Cloud Services.
                                 </p>
+
+
+
                                 <a href="#" className="rts-btn btn-border btn-bold">
                                     Get in touch
                                     <img src="assets/images/service/icons/13.svg" alt="arrow" />
@@ -42,10 +42,9 @@ function Wedo() {
                             data-wow-delay=".6s"
                         >
                             <div className="what-we-do-main-wrapper">
-                                <h5 className="title">Our Career</h5>
+                                <h5 className="title">Our Mission</h5>
                                 <p className="disc">
-                                    We bring together all the necessary technology and services to
-                                    help our clients solve their business problems.
+                                    At QuickInt Solutions, our mission is to empower businesses to thrive in the digital age through innovative and customized solutions. We are dedicated to driving your success by accelerating innovation, providing world-class tech teams, and enhancing all service offerings to meet your business needs.
                                 </p>
                                 <a href="#" className="rts-btn btn-border btn-bold">
                                     Career

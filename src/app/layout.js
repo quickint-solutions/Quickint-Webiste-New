@@ -14,10 +14,10 @@ import Script from 'next/script';
 
 
 export const metadata = {
-  title: "Luminos - IT solutions for a growing businesses",
+  title: "Quickint Solutions - IT solutions for a growing businesses",
   description: "IT solutions for a growing businesses",
   icons: {
-    icon: "/assets/images/fav.png", // Ensure the path is correct
+    icon: "/assets/images/logo/favicon-16x16.png", // Ensure the path is correct
   },
 };
 
@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Luminos - IT solutions for a growing businesses</title>
+        <title>Quickint Solutions - IT solutions for a growing businesses</title>
         <meta name="author" content="reactheme" />
-        <meta name="description" content="Luminos - IT solutions for a growing businesses" />
+        <meta name="description" content="Quickint Solutions - IT solutions for a growing businesses" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/images/fav.png" />
+        <link rel="icon" href="/assets/images/logo/favicon-16x16.png" />
       </Head>
       <body className='index-one'>
 

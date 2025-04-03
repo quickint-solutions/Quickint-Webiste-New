@@ -1,7 +1,7 @@
-"use client"; // Add if you're using Next.js App Router
+"use client"; // Add if using Next.js App Router
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules"; // Corrected import path
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -9,56 +9,66 @@ import "swiper/css/pagination";
 export default function TestimonialsThree() {
   const testimonials = [
     {
-      text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste.",
+      text: "Quickint Solutions transformed our slow operations into a streamlined digital process. Their understanding of our needs and expertise was impressive.",
       image: "/assets/images/testimonials/01.png",
-      name: "Michael Chen",
-      position: "CTO of SwiftPay Financial",
+      name: "Paras Patel",
+      position: "CEO of Hi-Tech Laboratories Pvt Ltd",
     },
     {
-      text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste.",
+      text: "Neel was an excellent full-stack developer who quickly grasped our requirements. His work significantly improved our project outcomes.",
       image: "/assets/images/testimonials/02.png",
-      name: "Kolic Chen",
-      position: "CTO of SwiftPay Financial",
+      name: "Rishabh Rastogi",
+      position: "CTO of Green Doors LLC",
     },
     {
-      text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste.",
+      text: "The IT solutions provided by Quickint Solutions have been invaluable, saving us time and improving our customer interactions remarkably.",
+      image: "/assets/images/testimonials/01.png",
+      name: "Aarav Gupta",
+      position: "Founder of HealthCare Plus",
+    },
+    {
+      text: "I’m extremely pleased with the outstanding work from Neel Patel and his team; their dedication and expertise were evident from start to finish.",
       image: "/assets/images/testimonials/02.png",
-      name: "John Lee",
-      position: "CTO of SwiftPay Financial",
+      name: "Vijay Shukla",
+      position: "CEO of Edge Enfinium, Husk 'N' Spices",
     },
     {
-      text: "Luminous transformed our agricultural business with their custom software solution. Their team developed an intuitive crop management system that has increased our yield by 30% and significantly reduced water waste.",
-      image: "/assets/images/testimonials/07.png",
-      name: "Michael Chen",
-      position: "CTO of SwiftPay Financial",
+      text: "The exceptional work by Neel Patel and his team was critical to our project's success. Their attention to detail was remarkable.",
+      image: "/assets/images/testimonials/01.png",
+      name: "Avinash Nagori",
+      position: "CEO of Maan Associates",
     },
   ];
 
   return (
-    <div className="rts-testimonials-area-about rts-section-gap bg-dark-1"  dir="ltr">
+    <div className="rts-testimonials-area-about rts-section-gap bg-dark-1" dir="ltr">
       <div className="container">
         <div className="row">
+          {/* Section Title */}
           <div className="col-lg-12">
-            <div className="testimonails-title-wrapper-between"> 
+            <div className="testimonails-title-wrapper-between">
               <h2 className="title">What they said about us</h2>
+              {/* Swiper Navigation Buttons */}
               <div className="swiper-btn">
-                <div className="swiper-button-next">
-                  <i className="fa-regular fa-arrow-right"></i>
-                </div>
                 <div className="swiper-button-prev">
                   <i className="fa-regular fa-arrow-left"></i>
+                </div>
+                <div className="swiper-button-next">
+                  <i className="fa-regular fa-arrow-right"></i>
                 </div>
               </div>
             </div>
           </div>
+
+          {/* Swiper Carousel */}
           <div className="col-lg-12 mt--55">
-            <div className="swiper-area-main-wrapper mySwiper-testimonials-5  position-relative">
+            <div className="swiper-area-main-wrapper mySwiper-testimonials-5 position-relative">
               <Swiper
-                 modules={[Navigation, Pagination, Autoplay]}
+                modules={[Navigation, Pagination, Autoplay]}
                 slidesPerView={3}
                 spaceBetween={18}
                 loop={true}
-                eed={700}
+                speed={700} // Fixed incorrect "eed" typo
                 centeredSlides={true}
                 autoplay={{
                   delay: 3000,

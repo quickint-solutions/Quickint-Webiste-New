@@ -48,7 +48,7 @@ function HeaderOne() {
                         <div className="col-lg-12">
                             <div className="header-wrapper-1">
                                 <Link href="/#" className="logo-area">
-                                    <img src="/assets/images/logo/logo-1.svg" alt="logo" />
+                                    <img src="/assets/images/logo/Quickint-logo.png" alt="logo" style={{ maxWidth: "188px" }} />
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">
@@ -85,7 +85,7 @@ function HeaderOne() {
                         <div className="col-lg-12">
                             <div className="header-wrapper-1">
                                 <Link href="/#" className="logo-area">
-                                    <img src="/assets/images/logo/logo-1.svg" alt="logo" />
+                                    <img src="/assets/images/logo/Quickint-logo.png" alt="logo" style={{ maxWidth: "188px" }} />
                                 </Link>
                                 <Nav />
                                 <div className="button-area-right-header">

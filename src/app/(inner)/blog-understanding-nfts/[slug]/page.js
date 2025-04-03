@@ -68,26 +68,6 @@ export default function BlogDetails() {
                       alt={blogPost.title} />
                   </div>
                   <div className="blog-listing-content">
-                    <div className="user-info">
-                      {/* single info */}
-                      <div className="single">
-                        <i className="far fa-user-circle" />
-                        <span>by David Smith</span>
-                      </div>
-                      {/* single infoe end */}
-                      {/* single info */}
-                      <div className="single">
-                        <i className="far fa-clock" />
-                        <span>by David Smith</span>
-                      </div>
-                      {/* single infoe end */}
-                      {/* single info */}
-                      <div className="single">
-                        <i className="far fa-tags" />
-                        <span>by David Smith</span>
-                      </div>
-                      {/* single infoe end */}
-                    </div>
                     <h3 className="title animated fadeIn">
                       Building smart business solution for you
                     </h3>
@@ -517,13 +497,7 @@ export default function BlogDetails() {
           </div>
         </div>
       </>
-
-
-
-
       <FooterOne />
-
-
       <BackToTop />
     </div>
   );

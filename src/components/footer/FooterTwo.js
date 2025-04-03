@@ -53,7 +53,7 @@ function FooterTwo() {
                         <div className="col-lg-5 col-md-12">
                             <div className="logo-area">
                                 <Link href="#" className="logo">
-                                    <img src="assets/images/logo/logo-1.svg" alt="logo" />
+                                    <img src="assets/images/logo/Quickint-logo.png" alt="logo" />
                                 </Link>
                                 <p className="disc">
                                     Luminous is a leading IT solutions company that provides
