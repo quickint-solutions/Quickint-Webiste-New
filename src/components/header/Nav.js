@@ -167,7 +167,7 @@ function Nav() {
                             </Link>
                         </li>
                         <li className="has-dropdown position-static with-megamenu">
-                            <Link className="nav-link" href="/service">
+                            <Link className="nav-link" href="/">
                                 Service{" "}
                                 <i className="fa-duotone fa-regular fa-chevron-down" />
                             </Link>
