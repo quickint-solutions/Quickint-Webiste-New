@@ -3,6 +3,7 @@ import axios from "axios";
 export default function myFunc(req, res) {
     if (req.method === "POST") {
         const { d } = req.body;
+        console.log(d);
 
         let data = JSON.stringify(d);
 
@@ -15,7 +16,6 @@ export default function myFunc(req, res) {
                 'Content-Type': 'application/json',
                 'Cookie': 'full_name=Guest; sid=Guest; system_user=no; user_id=Guest; user_image='
             },
-            console.log('headers -> ', headers)
             data: data
         };
 

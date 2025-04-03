@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import axios from "axios";
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderOne from "@/components/header/HeaderOne";
@@ -15,27 +16,24 @@ export default function Contact() {
 
     const [loading, setLoading] = useState(false);
     const [statusMessage, setStatusMessage] = useState("");
-    const [statusType, setStatusType] = useState(""); // "success" or "error"
+    const [statusType, setStatusType] = useState("")
+    const [error, setError] = useState(null);
+    const [success, setSuccess] = useState(false);
+    const [showThankYou, setShowThankYou] = useState(false);
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+        e.preventDefault(); // Prevent default form submission
         setLoading(true);
-        setStatusMessage("");
-
-        if (!formData.name || !formData.email || !formData.message) {
-            setStatusMessage("Please fill in all required fields.");
-            setStatusType("error");
-            setLoading(false);
-            return;
-        }
+        setError(null);
+        setSuccess(false);
 
         try {
-            // Construct CRM request payload
-            const crmPayload = {
+            // Send data to CRM API
+            await axios.post("/api/crm", {
                 d: {
                     docstatus: 0,
                     idx: 1,
@@ -58,34 +56,33 @@ export default function Contact() {
                         { note: `Message: ${formData.message}` },
                     ],
                 },
-            };
+            });
 
-            // Make API calls concurrently
-            const [crmResponse, emailResponse] = await Promise.all([
-                fetch("/api/crm", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(crmPayload),
-                }),
-                fetch("/api/email", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(formData),
-                }),
-            ]);
+            // Send email notification
+            const response = await fetch("/api/email", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData),
+            });
 
-            // Check API responses
-            if (crmResponse.ok && emailResponse.ok) {
+            if (response.status === 201) {
+                setSuccess(true);
                 setStatusMessage("Message sent successfully!");
                 setStatusType("success");
+
+                // Reset form after successful submission
                 setFormData({ name: "", phone: "", email: "", message: "" });
+
+                setShowThankYou(true);
+                setTimeout(() => setShowThankYou(false), 5000);
             } else {
-                setStatusMessage("Some operations failed. Please try again.");
+                setError("Failed to send message. Please try again later.");
+                setStatusMessage("Failed to send message.");
                 setStatusType("error");
             }
         } catch (error) {
-            console.error("Error submitting form:", error);
-            setStatusMessage("An error occurred. Please try again.");
+            setError("An error occurred. Please try again later.");
+            setStatusMessage("An error occurred.");
             setStatusType("error");
         } finally {
             setLoading(false);
@@ -136,7 +133,7 @@ export default function Contact() {
                                         type="text"
                                         id="phone"
                                         name="phone"
-                                        placeholder="+1 (555) 000-0000"
+                                        placeholder="+91 1234567890"
                                         value={formData.phone}
                                         onChange={handleChange}
                                     />
@@ -171,6 +168,12 @@ export default function Contact() {
                                     <p className={`status-message ${statusType}`}>{statusMessage}</p>
                                 )}
                             </form>
+
+                            {showThankYou && (
+                                <div className="thank-you-message">
+                                    <p>Thank you for contacting us! We will get back to you soon.</p>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
