@@ -56,7 +56,7 @@ export default function Home() {
                                 <div className="thumbnail-area-large-service-detaile-mid jarallax jara-mask-1">
                                     <img
                                         className="jarallax-img"
-                                        src="assets/images/service/07.webp"
+                                        src="assets/images/service/pexels-jopwell-2422293.jpg"
                                         alt="service"
                                     />
                                 </div>
@@ -65,7 +65,7 @@ export default function Home() {
                                 <div className="thumbnail-area-large-service-detaile-mid jarallax jara-mask-1">
                                     <img
                                         className="jarallax-img"
-                                        src="assets/images/service/08.webp"
+                                        src="assets/images/service/pexels-thisisengineering-3861959.jpg"
                                         alt="service"
                                     />
                                 </div>
