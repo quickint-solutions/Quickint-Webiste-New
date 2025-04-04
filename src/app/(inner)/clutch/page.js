@@ -19,8 +19,8 @@ const ClutchWidget = () => {
                 backgroundColor: "#ffffff",
                 padding: "1rem",
                 borderRadius: "8px",
-                maxWidth: "320px",
-                margin: "0 auto", // centers the container
+                maxWidth: "260px",
+                marginLeft: "0", // aligns to left
             }}
         >
             <div
