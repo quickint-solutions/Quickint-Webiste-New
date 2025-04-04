@@ -73,7 +73,9 @@ function ServiceOne() {
                     {/* More Solutions Button */}
                     <div className="row mt-4">
                         <div className="col-lg-12 text-center">
-                            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ39f071tVvYbKUAnVaFk3HQG4uAEoL-CjHGygO7nfiRCA6lwLnehAPwYCHMdH5s5S7f8-WzjLse" className="rts-btn btn-primary">
+                            <a
+                                target="_blank"
+                                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ39f071tVvYbKUAnVaFk3HQG4uAEoL-CjHGygO7nfiRCA6lwLnehAPwYCHMdH5s5S7f8-WzjLse" className="rts-btn btn-primary">
                                 More Solutions
                                 <ReactSVG src="assets/images/service/icons/13.svg" alt="arrow" />
                             </a>
