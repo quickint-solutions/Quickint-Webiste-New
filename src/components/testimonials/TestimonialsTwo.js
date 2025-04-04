@@ -4,6 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+import ClutchWidget from "@/app/(inner)/clutch/page";
 
 const TestimonialsTwo = () => {
     const testimonials = [
@@ -42,6 +43,7 @@ const TestimonialsTwo = () => {
     return (
         <div className="rts-testimonials-area-two rts-section-gap bg-solution">
             <div className="container">
+                <ClutchWidget />
                 <div className="row">
                     <div className="col-lg-12 text-center testimonials-title-two-center">
                         <h2 className="title">What clients said</h2>
