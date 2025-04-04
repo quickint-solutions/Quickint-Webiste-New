@@ -18,7 +18,7 @@ function ServiceTwo() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="title-center-style-two">
-                                <h2 className="title">More solutions..</h2>
+                                <h2 className="title">Our Services</h2>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ function ServiceTwo() {
                                         <img src="assets/images/service/icons/15.png" style={{ width: "35px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single.html">
+                                        <a href="service-single">
                                             <h3 className="title">
                                                 Software Development
                                                 <img
@@ -61,7 +61,7 @@ function ServiceTwo() {
                                         <img src="assets/images/service/icons/14.png" style={{ width: "35px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single.html">
+                                        <a href="/cyber-security-service">
                                             <h3 className="title">
                                                 Cyber Security
                                                 <img
@@ -89,7 +89,7 @@ function ServiceTwo() {
                                         <img src="assets/images/service/icons/12.png" style={{ width: "40px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single.html">
+                                        <a href="/it-strategies">
                                             <h3 className="title">
                                                 Web Development
                                                 <img
@@ -118,7 +118,7 @@ function ServiceTwo() {
                                         <img src="assets/images/service/icons/16.png" style={{ width: "28px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single.html">
+                                        <a href="/development-service">
                                             <h3 className="title">
                                                 Mobile Development
                                                 <img
@@ -146,7 +146,7 @@ function ServiceTwo() {
                                         <img src="assets/images/service/icons/13.jpg" style={{ width: "40px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single.html">
+                                        <a href="/it-consulting-service">
                                             <h3 className="title">
                                                 IT Consulting &amp; Advisory
                                                 <img
@@ -174,7 +174,7 @@ function ServiceTwo() {
                                         <img src="assets/images/service/icons/12.png" style={{ width: "40px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single.html">
+                                        <a href="/cloud-service">
                                             <h3 className="title">
                                                 Cloud Services
                                                 <img
