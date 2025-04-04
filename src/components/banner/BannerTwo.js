@@ -49,9 +49,10 @@ function BannerTwo() {
                                 </h1>
                                 <div className="button-wrapper" data-aos-delay="400" data-aos="fade-up" data-aos-duration="1000">
                                     <a
-                                        href="service.html"
+                                        href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ39f071tVvYbKUAnVaFk3HQG4uAEoL-CjHGygO7nfiRCA6lwLnehAPwYCHMdH5s5S7f8-WzjLse"
                                         className="rts-btn btn-primary wow fadeInUp"
                                         data-wow-delay=".3s"
+                                        target="_blank"
                                     >
                                         Schedule a Free Consultation
                                         <ReactSVG
@@ -60,9 +61,10 @@ function BannerTwo() {
                                         />
                                     </a>
                                     <a
-                                        href="contact.html"
+                                        href="#"
                                         className="rts-btn btn-border wow fadeInUp"
                                         data-wow-delay=".5s"
+                                        target="_blank"
                                     >
                                         Services
                                         <ReactSVG

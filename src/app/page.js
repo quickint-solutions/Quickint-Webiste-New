@@ -1,7 +1,6 @@
 "use client";
 
 import BannerTwo from "@/components/banner/BannerTwo";
-import CaseStudiesTwo from "@/components/casestudies/CaseStudiesTwo";
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderOne from "@/components/header/HeaderOne";
@@ -13,6 +12,7 @@ import CtaTwo from "@/components/cta/CtaTwo";
 import dynamic from 'next/dynamic';
 import ClutchWidget from "@/app/(inner)/clutch/page.js";
 import ServiceOne from "@/components/services/ServiceOne";
+import CaseStudies from "@/components/casestudies/CaseStudies";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       <Brand />
       <ServiceTwo />
       <ServiceOne />
-      <CaseStudiesTwo />
+      <CaseStudies />
       <TestimonialsTwo />
       <ClutchWidget />
       <BlogTwo />

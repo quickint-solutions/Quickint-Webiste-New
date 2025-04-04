@@ -19,11 +19,6 @@ function Nav() {
                                 About
                             </Link>
                         </li>
-                        <li>
-                            <Link className="nav-link" href="/case-studies">
-                                Case Studies
-                            </Link>
-                        </li>
                         <li className="has-dropdown position-static with-megamenu">
                             <Link className="nav-link" href="/">
                                 Service{" "}
@@ -41,7 +36,7 @@ function Nav() {
                                                     >
                                                         <div className="icon">
                                                             <img
-                                                                src="/assets/images/service/icons/15.png"
+                                                                src="/assets/images/service/icons/27.svg"
                                                                 alt="service"
                                                             />
                                                         </div>
@@ -60,7 +55,7 @@ function Nav() {
                                                     >
                                                         <div className="icon">
                                                             <img
-                                                                src="/assets/images/service/icons/14.png"
+                                                                src="/assets/images/service/icons/24.svg"
                                                                 alt="service"
                                                             />
                                                         </div>
@@ -82,7 +77,7 @@ function Nav() {
                                                     >
                                                         <div className="icon">
                                                             <img
-                                                                src="/assets/images/service/icons/12.png"
+                                                                src="/assets/images/service/icons/23.svg"
                                                                 alt="service"
                                                             />
                                                         </div>
@@ -101,8 +96,7 @@ function Nav() {
                                                     >
                                                         <div className="icon">
                                                             <img
-                                                                src="/assets/images/service/icons/16.png"
-                                                                style={{ width: "28px" }}
+                                                                src="/assets/images/service/icons/30.svg"
                                                                 alt="service"
                                                             />
                                                         </div>
@@ -125,7 +119,7 @@ function Nav() {
                                                     >
                                                         <div className="icon">
                                                             <img
-                                                                src="/assets/images/service/icons/13.jpg"
+                                                                src="/assets/images/service/icons/26.svg"
                                                                 alt="service"
                                                             />
                                                         </div>
@@ -146,7 +140,7 @@ function Nav() {
                                                     >
                                                         <div className="icon">
                                                             <img
-                                                                src="/assets/images/service/icons/12.png"
+                                                                src="/assets/images/service/icons/22.svg"
                                                                 alt="service"
                                                             />
                                                         </div>
@@ -168,7 +162,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="industries"
-                                                        href="/construction-industry"
+                                                        href=""
                                                     >
                                                         <ReactSVG
                                                             src="/assets/images/icons/arrow-right.svg"
@@ -180,7 +174,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="industries"
-                                                        href="/healthcare-industry"
+                                                        href=""
                                                     >
                                                         <ReactSVG
                                                             src="/assets/images/icons/arrow-right.svg"
@@ -192,7 +186,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="industries"
-                                                        href="/ecommerce-industry"
+                                                        href=""
                                                     >
                                                         <ReactSVG
                                                             src="/assets/images/icons/arrow-right.svg"
@@ -204,7 +198,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="industries"
-                                                        href="/fintech-industry"
+                                                        href=""
                                                     >
                                                         <ReactSVG
                                                             src="/assets/images/icons/arrow-right.svg"
@@ -216,7 +210,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="industries"
-                                                        href="/logistic-industry"
+                                                        href=""
                                                     >
                                                         <ReactSVG
                                                             src="/assets/images/icons/arrow-right.svg"
@@ -228,7 +222,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="industries"
-                                                        href="/travel-industry"
+                                                        href=""
                                                     >
                                                         <ReactSVG
                                                             src="/assets/images/icons/arrow-right.svg"
@@ -244,9 +238,15 @@ function Nav() {
                             </div>
                         </li>
                         <li>
+                            <Link className="nav-link" href="/case-studies">
+                                Case Studies
+                            </Link>
+                        </li>
+
+                        <li>
                             <Link className="nav-link" href="/blog-grid">
                                 <i className="fa-sharp fa-regular" />
-                                Blog Grid
+                                Blog
                             </Link>
                         </li>
                         <li>

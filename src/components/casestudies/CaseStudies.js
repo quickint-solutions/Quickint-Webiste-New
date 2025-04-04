@@ -36,20 +36,15 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="300"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
-                  <img
-                    loading="lazy"
-                    rel="preload"
-                    src="assets/images/case-studies/01.webp"
-                    alt="image"
-                  />
+                <a href="/case-studies-single" className="thumbnail">
+                  <img src="assets/images/case-studies/01.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>NodeJS Development, Security</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Rocken SaaS App</h3>
+                  <span>Industry:B2B Pharmacy</span>
+                  <a href="/case-studies-single">
+                    <h3 className="title animated fadeIn">1Deal App</h3>
                   </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
+                  <a href="/case-studies-single" className="rts-btn btn-border">
                     View case study
                     <ReactSVG
                       src="assets/images/service/icons/13.svg"
@@ -63,20 +58,16 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="600"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
-                  <img
-                    loading="lazy"
-                    rel="preload"
-                    src="assets/images/case-studies/02.webp"
-                    alt="image"
-                  />
+                <a href="/case-studies-exact-lims" className="thumbnail">
+                  <img src="assets/images/case-studies/03.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>Cloud Migration, Web Design</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Hubdeck</h3>
+                  <span>Industry:Healthcare
+                  </span>
+                  <a href="/case-studies-exact-lims">
+                    <h3 className="title animated fadeIn">EXACT LIMS                                        </h3>
                   </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
+                  <a href="/case-studies-exact-lims" className="rts-btn btn-border">
                     View case study
                     <ReactSVG
                       src="assets/images/service/icons/13.svg"
@@ -90,20 +81,16 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="300"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
-                  <img
-                    loading="lazy"
-                    rel="preload"
-                    src="assets/images/case-studies/03.webp"
-                    alt="image"
-                  />
+                <a href="/case-studies-cattle-feed" className="thumbnail">
+                  <img src="assets/images/case-studies/02.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>Cloud Migration, Web Design</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Ficacu Agency</h3>
+                  <span>Industry:Animal feed</span>
+                  <a href="/case-studies-cattle-feed">
+                    <h3 className="title animated fadeIn">Cattle Feed
+                    </h3>
                   </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
+                  <a href="/case-studies-cattle-feed" className="rts-btn btn-border">
                     View case study
                     <ReactSVG
                       src="assets/images/service/icons/13.svg"
@@ -117,20 +104,16 @@ function CaseStudies() {
               className="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-aos="fade-up" data-aos-delay="600"
             >
               <div className="single-case-studies">
-                <a href="case-studies-single.html" className="thumbnail">
-                  <img
-                    loading="lazy"
-                    rel="preload"
-                    src="assets/images/case-studies/04.webp"
-                    alt="image"
-                  />
+                <a href="/case-studies-husk-spices" className="thumbnail">
+                  <img src="assets/images/case-studies/04.webp" alt="image" />
                 </a>
                 <div className="inner-content">
-                  <span>NodeJS Development, Security</span>
-                  <a href="case-studies-single.html">
-                    <h3 className="title">Nexus App</h3>
+                  <span>Industry:Dehydrated Food Products </span>
+                  <a href="/case-studies-husk-spices">
+                    <h3 className="title animated fadeIn">Husk ‘N’ Spices
+                    </h3>
                   </a>
-                  <a href="case-studies-single.html" className="rts-btn btn-border">
+                  <a href="/case-studies-husk-spices" className="rts-btn btn-border">
                     View case study
                     <ReactSVG
                       src="assets/images/service/icons/13.svg"
@@ -144,7 +127,7 @@ function CaseStudies() {
           <div className="row mt--60">
             <div className="col-lg-12">
               <a
-                href="case-studies.html"
+                href="case-studies"
                 className="rts-btn btn-border more-project-btn"
               >
                 More projects

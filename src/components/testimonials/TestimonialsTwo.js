@@ -83,11 +83,6 @@ const TestimonialsTwo = () => {
                                             <div className="single-testimonials-two">
                                                 <p className="disc">{testimonial.text}</p>
                                                 <div className="inner-author">
-                                                    <img
-                                                        src={testimonial.imgSrc}
-                                                        alt="testimonial"
-                                                        className="author-image"
-                                                    />
                                                     <div className="info">
                                                         <h6 className="title">{testimonial.name}</h6>
                                                         <span className="date">{testimonial.designation}</span>

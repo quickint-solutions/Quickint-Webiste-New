@@ -95,11 +95,6 @@ export default function TestimonialsThree() {
                     <div className="single-testimonials-about">
                       <p className="disc">{testimonial.text}</p>
                       <div className="author-area">
-                        <img
-                          src={testimonial.image}
-                          alt={testimonial.name}
-                          className="testimonial-image"
-                        />
                         <div className="information">
                           <h5 className="title">{testimonial.name}</h5>
                           <p>{testimonial.position}</p>
