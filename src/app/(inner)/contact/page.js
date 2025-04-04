@@ -178,6 +178,25 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
+            <div className="rts-google-map-area rts-section-gapTop">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="google-map-wrapper">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4930.93543287035!2d72.62208607628865!3d22.983620217778782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87091e60d2cf%3A0xb7f883dd2c61cb5a!2sQuickint%20Solutions!5e1!3m2!1sen!2sin!4v1743760453252!5m2!1sen!2sin"
+                                    width={600}
+                                    height={500}
+                                    style={{ border: 0 }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <FooterOne />
             <BackToTop />
