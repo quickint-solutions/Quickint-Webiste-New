@@ -7,10 +7,12 @@ import ServiceSingle from "@/components/banner-service/ServiceSingle";
 import TestimonialsFive from "@/components/testimonials/TestimonialsFive";
 import CtaFour from "@/components/cta/CtaFour";
 import MoreSolutions from "@/components/service-component/MoreSolution";
+import HeaderOne from "@/components/header/HeaderOne";
 
 export default function Home() {
     return (
         <div className='#'>
+            <HeaderOne />
 
             <ServiceSingle />
             <div>
