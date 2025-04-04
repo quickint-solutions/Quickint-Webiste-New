@@ -2,9 +2,8 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.css";
 import { Navigation, Autoplay } from "swiper/modules";
-
+import "swiper/swiper-bundle.css";
 
 // Install Swiper modules
 
@@ -27,32 +26,16 @@ const BrandArea = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="brand-area-main-wrapper swiper-area-main-wrapper">
+                        <div className="swiper-area-main-wrapper">
                             <Swiper
-                                spaceBetween={0}
-                                slidesPerView={6}
+                                spaceBetween={20}
+                                slidesPerView={4}
                                 loop={true}
                                 autoplay={{ delay: 3000, disableOnInteraction: false }}
-                                navigation={{
-                                    nextEl: ".swiper-button-next",
-                                    prevEl: ".swiper-button-prev",
-                                }}
                                 breakpoints={{
-                                    // When the viewport is >= 640px
-                                    240: {
-                                        slidesPerView: 1,
-                                        spaceBetween: 0,
-                                    },
-                                    // When the viewport is >= 768px
-                                    768: {
-                                        slidesPerView: 1,
-                                        spaceBetween: 0,
-                                    },
-                                    // When the viewport is >= 1024px
-                                    1024: {
-                                        slidesPerView: 2,
-                                        spaceBetween: 0,
-                                    },
+                                    320: { slidesPerView: 2 },
+                                    768: { slidesPerView: 3 },
+                                    1024: { slidesPerView: 5 },
                                 }}
                                 className="mySwiper-testimonials-150"
                                 modules={[Navigation, Autoplay]}
