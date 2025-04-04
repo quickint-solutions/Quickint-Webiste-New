@@ -1,11 +1,13 @@
 "use client"
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
+import HeaderOne from "@/components/header/HeaderOne";
 
 import { ReactSVG } from 'react-svg';
 export default function Home() {
     return (
         <div className='#'>
+            <HeaderOne />
 
 
             <>
@@ -25,36 +27,24 @@ export default function Home() {
                                     <div className="top">
                                         <h1 className="title">Terms Of Condition</h1>
                                         <p className="disc">
-                                            Offers a unified platform that fosters innovation while
-                                            providing end-to-end data management.
+                                            Suggested text: Our website
                                         </p>
                                     </div>
                                     <div className="mid-content">
                                         <p className="disc">
-                                            We your strategic partners in digital transformation. With
-                                            over a decade of experience and a team of certified experts, we
-                                            deliver tailored solutions that drive growth, enhance
-                                            efficiency, and secure your digital assets.
+                                            Suggested text: When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
                                         </p>
                                         <p className="disc">
-                                            Quickint Solutions works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            Suggested text: If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
                                         </p>
                                         <p className="disc">
-                                            Quickint Solutions works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            Suggested text: If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+
+                                            If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser. When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks.
+
+                                            If you log out of your account, the login cookies will be removed.
+
+                                            If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
                                         </p>
                                     </div>
                                 </div>
@@ -69,25 +59,17 @@ export default function Home() {
                                 <div className="inner-content">
                                     <div className="mid-content  pt--0">
                                         <p className="disc">
-                                            We your strategic partners in digital transformation. With
-                                            over a decade of experience and a team of certified experts, we
-                                            deliver tailored solutions that drive growth, enhance
-                                            efficiency, and secure your digital assets.
+                                            Suggested text: Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+
+                                            These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
                                         </p>
                                         <p className="disc">
-                                            Quickint Solutions works with businesses of all sizes, from small startups
-                                            to large enterprises. We tailor our solutions to meet the
-                                            specific needs and budget of each client offers a wide range of
-                                            IT services. As we invest heavily in ongoing training and
-                                            professional development for our team. We also participate in
-                                            industry conferences, maintain partnerships with leading
-                                            technology providers, and conduct internal research and
-                                            development projects.
+                                            Suggested text: If you request a password reset, your IP address will be included in the reset email.
                                         </p>
                                         <p className="disc">
-                                            Offers a unified platform that fosters innovation while
-                                            providing end-to-end data management. See how we help your team
-                                            solve today’s biggest challenges.
+                                            Suggested text: If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
+
+                                            For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
                                         </p>
                                     </div>
                                 </div>
