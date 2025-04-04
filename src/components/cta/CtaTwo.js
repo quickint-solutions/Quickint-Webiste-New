@@ -4,11 +4,8 @@ import React, { useState } from "react";
 export default function CtaTwo() {
     const [formData, setFormData] = useState({
         name: "",
-        lastName: "",
-        company: "",
         phone: "",
         email: "",
-        service: "",
         message: "",
     });
     const [errors, setErrors] = useState({});
@@ -18,32 +15,38 @@ export default function CtaTwo() {
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
+        setErrors({ ...errors, [e.target.name]: "" });
     };
-    const validateForm = () => {
-        const newErrors = {};
-        const phoneRegex = /^[0-9]{10}$/;
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-        if (!formData.name.trim()) newErrors.name = "First name is required.";
-        if (!formData.lastName.trim()) newErrors.lastName = "Last name is required.";
-        if (!formData.phone.trim()) newErrors.phone = "Phone is required.";
-        else if (!phoneRegex.test(formData.phone)) newErrors.phone = "Phone must be 10 digits.";
-        if (!formData.email.trim()) newErrors.email = "Email is required.";
-        else if (!emailRegex.test(formData.email)) newErrors.email = "Invalid email format.";
-        if (!formData.service) newErrors.service = "Please select a service.";
-        if (!formData.message.trim()) newErrors.message = "Message is required.";
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
+    const validate = () => {
+        const newErrors = {};
+        if (!formData.name.trim()) newErrors.name = "Name is required";
+        if (!formData.email.trim()) {
+            newErrors.email = "Email is required";
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+            newErrors.email = "Email is invalid";
+        }
+        if (!formData.phone.trim()) {
+            newErrors.phone = "Phone is required";
+        } else if (!/^\d{10,15}$/.test(formData.phone)) {
+            newErrors.phone = "Phone must be 10-15 digits";
+        }
+        if (!formData.message.trim()) newErrors.message = "Message is required";
+        return newErrors;
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        const validationErrors = validate();
+        if (Object.keys(validationErrors).length > 0) {
+            setErrors(validationErrors);
+            return;
+        }
+
+        setLoading(true);
         setSuccess(null);
         setError(null);
 
-        if (!validateForm()) return;
-
-        setLoading(true);
         try {
             const response = await fetch("/api/email", {
                 method: "POST",
@@ -55,15 +58,7 @@ export default function CtaTwo() {
 
             if (response.ok) {
                 setSuccess("Your message has been sent successfully!");
-                setFormData({
-                    name: "",
-                    lastName: "",
-                    company: "",
-                    phone: "",
-                    email: "",
-                    service: "",
-                    message: "",
-                });
+                setFormData({ name: "", phone: "", email: "", message: "" });
                 setErrors({});
             } else {
                 setError(data.message || "Something went wrong!");
@@ -77,60 +72,53 @@ export default function CtaTwo() {
 
     return (
         <div style={{ width: "100%", fontFamily: "Arial, sans-serif" }}>
-            <div style={{
-                display: "flex",
-                flexDirection: typeof window !== 'undefined' && window.innerWidth >= 1024 ? "row" : "column",
-                margin: "0 auto",
-                maxWidth: "1200px",
-            }}>
-                {/* Left Side Content */}
-                <div style={{
-                    width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? "50%" : "100%",
-                    backgroundColor: "#1a1a1a",
-                    color: "white",
-                    padding: typeof window !== 'undefined' && window.innerWidth >= 1024 ? "3rem" : "1.5rem",
-                    borderRadius: "8px",
-                    boxShadow: "0 2px 10px rgba(0, 0, 0, 0.2)",
-                }}>
-                    <button style={{
-                        padding: "0.5rem 1rem",
-                        border: "none",
-                        backgroundColor: "#2563eb",
+            <div
+                style={{
+                    display: "flex",
+                    flexWrap: "wrap",
+                    margin: "0 auto",
+                    maxWidth: "1200px",
+                    width: "100%",
+                }}
+            >
+                {/* Left Side */}
+                <div
+                    style={{
+                        flex: "1 1 50%",
+                        backgroundColor: "#1a1a1a",
                         color: "white",
-                        fontSize: "1.2rem",
-                        fontWeight: "600",
-                        marginBottom: "1rem",
-                        cursor: "pointer",
-                        width: "30%",
-                        borderRadius: "5px",
-                        transition: "background-color 0.3s",
+                        padding: "3rem",
+                        borderRadius: "8px",
+                        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.2)",
+                        minWidth: "300px",
                     }}
-                        onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#4a90e2"}
-                        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#2563eb"}
+                >
+                    <button
+                        style={buttonStyle}
+                        onMouseOver={(e) =>
+                            (e.currentTarget.style.backgroundColor = "#4a90e2")
+                        }
+                        onMouseLeave={(e) =>
+                            (e.currentTarget.style.backgroundColor = "#2563eb")
+                        }
                     >
                         CONTACT US
                     </button>
-                    <h2 style={{
-                        fontSize: "2.5rem",
-                        fontWeight: "bold",
-                        marginBottom: "1rem",
-                        color: "white",
-                    }}>
+                    <h2 style={headingStyle}>
                         Partner with Us for <br /> Comprehensive IT
                     </h2>
                     <p style={{ marginBottom: "1.5rem", color: "white" }}>
                         We’re happy to answer any questions you may have and help you determine which of our services best fit your needs.
                     </p>
                     <h4 style={{ marginTop: "1.5rem", color: "white" }}>
-                        Call us at: <span style={{ color: "#60a5fa" }}>+91 98258 66927</span>
+                        Call us at:{" "}
+                        <a href="tel:+919825866927" style={{ color: "#60a5fa", textDecoration: "none" }}>
+                            +91 98258 66927
+                        </a>
                     </h4>
 
                     <h5 style={{ marginTop: "1.5rem", color: "white" }}>Your benefits:</h5>
-                    <div style={{
-                        display: "grid",
-                        gridTemplateColumns: "repeat(2, 1fr)",
-                        gap: "0.5rem",
-                    }}>
+                    <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "0.5rem" }}>
                         {["Client-oriented", "Results-driven", "Independent", "Problem-solving", "Competent", "Transparent"].map((benefit, index) => (
                             <p style={{ color: "white" }} key={index}>✔ {benefit}</p>
                         ))}
@@ -142,53 +130,49 @@ export default function CtaTwo() {
                     ))}
                 </div>
 
-                {/* Right Side Form */}
-                <div style={{
-                    width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? "50%" : "100%",
-                    backgroundColor: "white",
-                    padding: typeof window !== 'undefined' && window.innerWidth >= 1024 ? "4rem" : "1.5rem",
-                    borderRadius: "8px",
-                    boxShadow: "0 2px 10px rgba(0, 0, 0, 0.2)",
-                }}>
+                {/* Right Side */}
+                <div
+                    style={{
+                        flex: "1 1 50%",
+                        backgroundColor: "white",
+                        padding: "3rem",
+                        borderRadius: "8px",
+                        boxShadow: "0 2px 10px rgba(0, 0, 0, 0.2)",
+                        minWidth: "300px",
+                    }}
+                >
                     <h3 style={{ textAlign: "center", fontSize: "1.5rem", marginBottom: "1.5rem" }}>
                         Schedule a Free Consultation
                     </h3>
                     <form onSubmit={handleSubmit}>
-                        <div style={{
-                            display: "grid",
-                            gridTemplateColumns: "1fr 1fr",
-                            gap: "1rem",
-                            marginBottom: "1rem",
-                        }}>
+                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
                             <div>
-                                <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem", color: "black" }}>First name</label>
+                                <label style={labelStyle}>First name</label>
                                 <input type="text" name="name" value={formData.name} onChange={handleChange} style={inputStyle} />
-                                {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
+                                {errors.name && <span style={errorStyle}>{errors.name}</span>}
                             </div>
                             <div>
-                                <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem", color: "black" }}>Last name</label>
+                                <label style={labelStyle}>Last name</label>
                                 <input type="text" style={inputStyle} />
-                                {errors.name && <p style={{ color: "red" }}>{errors.name}</p>}
                             </div>
                         </div>
 
                         <div>
-                            <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem" }}>Company / Organization</label>
+                            <label style={labelStyle}>Company / Organization</label>
                             <input type="text" style={inputStyle} />
-                            {errors.company && <p style={{ color: "red" }}>{errors.company}</p>}
                         </div>
                         <div>
-                            <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem" }}>Company email</label>
+                            <label style={labelStyle}>Company email</label>
                             <input type="email" name="email" value={formData.email} onChange={handleChange} style={inputStyle} />
-                            {errors.email && <p style={{ color: "red" }}>{errors.email}</p>}
+                            {errors.email && <span style={errorStyle}>{errors.email}</span>}
                         </div>
                         <div>
-                            <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem" }}>Phone</label>
+                            <label style={labelStyle}>Phone</label>
                             <input type="text" name="phone" value={formData.phone} onChange={handleChange} style={inputStyle} />
-                            {errors.phone && <p style={{ color: "red" }}>{errors.phone}</p>}
+                            {errors.phone && <span style={errorStyle}>{errors.phone}</span>}
                         </div>
 
-                        <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem" }}>How Can We Help You?</label>
+                        <label style={labelStyle}>How Can We Help You?</label>
                         <select style={inputStyle}>
                             <option>Select Option</option>
                             <option>Consulting</option>
@@ -196,31 +180,22 @@ export default function CtaTwo() {
                             <option>Other</option>
                         </select>
 
-                        <label style={{ marginBottom: "0.25rem", fontSize: "1.2rem" }}>Message</label>
+                        <label style={labelStyle}>Message</label>
                         <textarea
                             name="message"
                             value={formData.message}
                             onChange={handleChange}
-                            style={{
-                                ...inputStyle,
-                                minHeight: "100px",
-                            }}
+                            style={{ ...inputStyle, minHeight: "100px" }}
                             placeholder="To better assist you, please describe how we can help..."
                         ></textarea>
+                        {errors.message && <span style={errorStyle}>{errors.message}</span>}
 
-                        <button type="submit" disabled={loading} style={{
-                            width: "100%",
-                            backgroundColor: "#2563eb",
-                            color: "white",
-                            padding: "0.625rem",
-                            borderRadius: "5px",
-                            border: "none",
-                            cursor: "pointer",
-                            transition: "background-color 0.3s",
-                            fontWeight: "bold",
-                        }}
-                            onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#4a90e2"}
-                            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#2563eb"}
+                        <button
+                            type="submit"
+                            disabled={loading}
+                            style={submitBtnStyle}
+                            onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#4a90e2")}
+                            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#2563eb")}
                         >
                             {loading ? "Submitting..." : "Submit"}
                         </button>
@@ -234,11 +209,58 @@ export default function CtaTwo() {
     );
 }
 
+// Shared Styles
 const inputStyle = {
     width: "100%",
     padding: "0.5rem",
     border: "1px solid #d1d5db",
     borderRadius: "5px",
     outline: "none",
+    marginBottom: "0.5rem",
+};
+
+const labelStyle = {
+    marginBottom: "0.25rem",
+    fontSize: "1.5rem",
+    color: "black",
+};
+
+const errorStyle = {
+    color: "red",
+    fontSize: "1.5rem",
     marginBottom: "1rem",
+    display: "block",
+};
+
+const buttonStyle = {
+    padding: "0.5rem 1rem",
+    border: "none",
+    backgroundColor: "#2563eb",
+    color: "white",
+    fontSize: "1.5rem",
+    fontWeight: "600",
+    marginBottom: "1rem",
+    cursor: "pointer",
+    width: "30%",
+    borderRadius: "5px",
+    transition: "background-color 0.3s",
+};
+
+const submitBtnStyle = {
+    width: "100%",
+    backgroundColor: "#2563eb",
+    color: "white",
+    padding: "0.625rem",
+    borderRadius: "5px",
+    border: "none",
+    cursor: "pointer",
+    transition: "background-color 0.3s",
+    fontWeight: "bold",
+};
+
+const headingStyle = {
+    fontSize: "2.5rem",
+    fontWeight: "bold",
+    marginBottom: "1rem",
+    color: "white",
 };
