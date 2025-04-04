@@ -10,7 +10,6 @@ import TestimonialsTwo from "@/components/testimonials/TestimonialsTwo";
 import BlogTwo from "@/components/blog/BlogTwo";
 import CtaTwo from "@/components/cta/CtaTwo";
 import dynamic from 'next/dynamic';
-import ClutchWidget from "@/app/(inner)/clutch/page.js";
 import ServiceOne from "@/components/services/ServiceOne";
 import CaseStudies from "@/components/casestudies/CaseStudies";
 
@@ -23,7 +22,6 @@ export default function Home() {
       <ServiceTwo />
       <ServiceOne />
       <CaseStudies />
-      <ClutchWidget />
       <TestimonialsTwo />
       <BlogTwo />
       <CtaTwo />

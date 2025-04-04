@@ -14,7 +14,7 @@ const ClutchWidget = () => {
     }, []);
 
     return (
-        <div className="text-center mt-4 mb-4">
+        <div className="text-center mt-4 mb-4" style={{ backgroundColor: "#ffffff", padding: "1rem", borderRadius: "8px" }}>
             <div
                 className="clutch-widget"
                 data-url="https://widget.clutch.co"
