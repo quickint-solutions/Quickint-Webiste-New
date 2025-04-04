@@ -25,7 +25,7 @@ function page() {
                                 </a>
                                 <div className="inner-content">
                                     <a href="#" data-aos-duration="1000" data-aos-delay="100">
-                                        <h3 className="title animated fadeIn">Husk 'n' spices</h3>
+                                        <h3 className="title animated fadeIn">Husk n spices</h3>
                                     </a>
                                     <div className="right-area" data-aos-duration="1000" data-aos-delay="300">
                                         <div className="top">
