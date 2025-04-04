@@ -51,7 +51,7 @@ function Testimonials() {
                                         <SwiperSlide>
                                             <div className="single-testimonials-4">
                                                 <p className="disc">
-                                                    “The data analytics solution provided by Luminous has
+                                                    “The data analytics solution provided by Quickint Solutions has
                                                     revolutionized our research capabilities. Their team
                                                     expertise in handling large datasets and creating
                                                     insightful visualizations has accelerated our drug
@@ -72,7 +72,7 @@ function Testimonials() {
                                         <SwiperSlide>
                                             <div className="single-testimonials-4">
                                                 <p className="disc">
-                                                    “The data analytics solution provided by Luminous has
+                                                    “The data analytics solution provided by Quickint Solutions has
                                                     revolutionized our research capabilities. Their team
                                                     expertise in handling large datasets and creating
                                                     insightful visualizations has accelerated our drug
@@ -93,7 +93,7 @@ function Testimonials() {
                                         <SwiperSlide>
                                             <div className="single-testimonials-4">
                                                 <p className="disc">
-                                                    “The data analytics solution provided by Luminous has
+                                                    “The data analytics solution provided by Quickint Solutions has
                                                     revolutionized our research capabilities. Their team
                                                     expertise in handling large datasets and creating
                                                     insightful visualizations has accelerated our drug
@@ -114,7 +114,7 @@ function Testimonials() {
                                         <SwiperSlide>
                                             <div className="single-testimonials-4">
                                                 <p className="disc">
-                                                    “The data analytics solution provided by Luminous has
+                                                    “The data analytics solution provided by Quickint Solutions has
                                                     revolutionized our research capabilities. Their team
                                                     expertise in handling large datasets and creating
                                                     insightful visualizations has accelerated our drug
@@ -135,7 +135,7 @@ function Testimonials() {
                                         <SwiperSlide>
                                             <div className="single-testimonials-4">
                                                 <p className="disc">
-                                                    “The data analytics solution provided by Luminous has
+                                                    “The data analytics solution provided by Quickint Solutions has
                                                     revolutionized our research capabilities. Their team
                                                     expertise in handling large datasets and creating
                                                     insightful visualizations has accelerated our drug

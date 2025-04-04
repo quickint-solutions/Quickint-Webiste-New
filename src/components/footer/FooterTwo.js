@@ -14,7 +14,7 @@ function FooterTwo() {
                                 <div className="inner">
                                     <h2 className="title">Let’s schedule a Free consultation</h2>
                                     <p>
-                                        Offers a 30-day free trial of Luminouss Managed IT Services.
+                                        Offers a 30-day free trial of Quickint Solutionss Managed IT Services.
                                     </p>
                                     <Link
                                         href="/contact"
@@ -56,7 +56,7 @@ function FooterTwo() {
                                     <img src="assets/images/logo/Quickint-logo.png" alt="logo" />
                                 </Link>
                                 <p className="disc">
-                                    Luminous is a leading IT solutions company that provides
+                                    Quickint Solutions is a leading IT solutions company that provides
                                     innovative technology services to businesses of all sizes.
                                 </p>
                             </div>

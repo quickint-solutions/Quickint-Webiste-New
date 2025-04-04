@@ -21,7 +21,7 @@ function Testimonials() {
                             <div className="title-between-wrapper">
                                 <h2 className="title">Client Testimonials</h2>
                                 <p className="disc">
-                                    At Luminous IT Solutions, we take pride in the positive impact
+                                    At Quickint Solutions IT Solutions, we take pride in the positive impact
                                     we had on our clients businesses. Here are some testimonials
                                     from our satisfied customers:
                                 </p>
@@ -62,7 +62,7 @@ function Testimonials() {
                                     <SwiperSlide>
                                         <div className="single-testimonials-area-one">
                                             <p className="disc">
-                                                “Luminous transformed our agricultural business with their
+                                                “Quickint Solutions transformed our agricultural business with their
                                                 custom software solution. Their team developed an intuitive
                                                 crop management system that has increased our yield by 30%
                                                 and significantly reduced water waste. Their ongoing support
@@ -86,7 +86,7 @@ function Testimonials() {
                                     <SwiperSlide>
                                         <div className="single-testimonials-area-one">
                                             <p className="disc">
-                                                “Luminous transformed our agricultural business with their
+                                                “Quickint Solutions transformed our agricultural business with their
                                                 custom software solution. Their team developed an intuitive
                                                 crop management system that has increased our yield by 30%
                                                 and significantly reduced water waste. Their ongoing support
@@ -110,7 +110,7 @@ function Testimonials() {
                                     <SwiperSlide>
                                         <div className="single-testimonials-area-one">
                                             <p className="disc">
-                                                “Luminous transformed our agricultural business with their
+                                                “Quickint Solutions transformed our agricultural business with their
                                                 custom software solution. Their team developed an intuitive
                                                 crop management system that has increased our yield by 30%
                                                 and significantly reduced water waste. Their ongoing support
@@ -134,7 +134,7 @@ function Testimonials() {
                                     <SwiperSlide>
                                         <div className="single-testimonials-area-one">
                                             <p className="disc">
-                                                “Luminous transformed our agricultural business with their
+                                                “Quickint Solutions transformed our agricultural business with their
                                                 custom software solution. Their team developed an intuitive
                                                 crop management system that has increased our yield by 30%
                                                 and significantly reduced water waste. Their ongoing support

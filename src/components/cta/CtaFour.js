@@ -7,10 +7,10 @@ import "aos/dist/aos.css";
 function CtaFour() {
   useEffect(() => {
     AOS.init({
-        disableMutationObserver: true,
-        once: true,
+      disableMutationObserver: true,
+      once: true,
     });
-}, []);
+  }, []);
   return (
     <div>
       <>
@@ -22,7 +22,7 @@ function CtaFour() {
                 <h2 className="title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Book a Free Consultation</h2>
                 <p className="disc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                   Schedule a no-obligation consultation to discuss your unique needs
-                  and how Luminous can elevate your business technology.
+                  and how Quickint Solutions can elevate your business technology.
                 </p>
                 <a
                   href="#"

@@ -16,7 +16,7 @@ function FooterThree() {
                                         <img src="assets/images/logo/Quickint-logo.png" alt="logo" />
                                     </Link>
                                     <p className="disc">
-                                        Luminous is a leading IT solutions company that provides
+                                        Quickint Solutions is a leading IT solutions company that provides
                                         innovative technology services to businesses of all sizes.
                                     </p>
                                 </div>

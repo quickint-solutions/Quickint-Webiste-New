@@ -112,7 +112,7 @@ export default function Home() {
                                 <h2 className="title">Book a Free Consultation</h2>
                                 <p className="disc">
                                     Schedule a no-obligation consultation to discuss your unique needs
-                                    and how Luminous can elevate your business technology.
+                                    and how Quickint Solutions can elevate your business technology.
                                 </p>
                                 <a
                                     href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ39f071tVvYbKUAnVaFk3HQG4uAEoL-CjHGygO7nfiRCA6lwLnehAPwYCHMdH5s5S7f8-WzjLse"

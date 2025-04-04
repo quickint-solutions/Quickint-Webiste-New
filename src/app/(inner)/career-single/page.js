@@ -116,7 +116,7 @@ function page() {
                                 </p>
                                 <h2 className="title mt--35">Why Join Us?</h2>
                                 <p>
-                                    Luminous Technology offer a collaborative work environment that
+                                    Quickint Solutions Technology offer a collaborative work environment that
                                     values innovation and professional growth. As an IT Consultant,
                                     you’ll have the opportunity to work on impactful projects, help
                                     businesses leverage the power of technology, and advance your
@@ -134,7 +134,7 @@ function page() {
                                             Ready to apply? We can wait to meet you!
                                         </span>
                                         <a href="/apply" className="rts-btn btn-primary">
-                                            Apply Now at Luminous
+                                            Apply Now at Quickint Solutions
                                         </a>
                                         <p>
                                             Next, youl face an assessment to proceed. Apply for one job
