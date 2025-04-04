@@ -37,7 +37,7 @@ export default function Home() {
                                             At QuickInt Solutions, we provide end-to-end cloud services, including Cloud Migration, Infrastructure Management, Security, and Optimization. Our solutions enable businesses to reduce costs, improve efficiency, and scale effortlessly.
                                         </p>
                                         <p className="disc">
-                                            Whether you're looking to migrate to the cloud, optimize existing infrastructure, or enhance security, our team of certified cloud experts ensures a seamless transition with minimal downtime.
+                                            Whether youre looking to migrate to the cloud, optimize existing infrastructure, or enhance security, our team of certified cloud experts ensures a seamless transition with minimal downtime.
                                         </p>
                                         <p className="disc">
                                             We partner with leading cloud providers such as AWS, Microsoft Azure, and Google Cloud, offering customized solutions that align with your business goals. Stay ahead of the competition with our innovative cloud strategies.
@@ -83,7 +83,7 @@ export default function Home() {
                                             We are your strategic partners in digital transformation. With over a decade of experience and a team of certified experts, we deliver tailored IT solutions that drive growth, enhance efficiency, and secure your digital assets.
                                         </p>
                                         <p className="disc">
-                                            QuickInt Solutions works with businesses of all sizes, from startups to large enterprises. We customize our services to fit each client's unique needs and budget. Our expertise spans a wide range of IT solutions, ensuring seamless integration and maximum business impact.
+                                            QuickInt Solutions works with businesses of all sizes, from startups to large enterprises. We customize our services to fit each clients unique needs and budget. Our expertise spans a wide range of IT solutions, ensuring seamless integration and maximum business impact.
                                         </p>
                                         <p className="disc">
                                             We invest heavily in ongoing training, research, and partnerships with leading technology providers. Our approach fosters innovation and efficiency, helping your business stay ahead of technological advancements.

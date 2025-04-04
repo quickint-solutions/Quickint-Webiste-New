@@ -86,7 +86,7 @@ export default function Home() {
                                             Our mobile development services also include ongoing support and updates to keep applications running smoothly and securely. We provide timely upgrades, security enhancements, and new feature integrations to ensure that our clients stay ahead in their industry. With our expertise, businesses can leverage mobile technology to drive customer engagement and operational efficiency.
                                         </p>
                                         <p className="disc">
-                                            We believe in long-term partnerships, assisting our clients with scaling their mobile applications as their business grows. Whether it's integrating AI-powered features, implementing analytics tracking, or expanding functionalities, we ensure that your mobile application evolves with your business needs.
+                                            We believe in long-term partnerships, assisting our clients with scaling their mobile applications as their business grows. Whether its integrating AI-powered features, implementing analytics tracking, or expanding functionalities, we ensure that your mobile application evolves with your business needs.
                                         </p>
                                     </div>
                                 </div>

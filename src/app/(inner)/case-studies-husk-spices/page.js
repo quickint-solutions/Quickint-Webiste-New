@@ -53,13 +53,13 @@ function page() {
                         <div className="col-lg-12">
                             <div className="about-case-details-inne">
                                 <p className="p1" data-aos-duration="1000" data-aos-delay="100">
-                                    Husk ‘N’ Spices offers premium dehydrated food products, preserving flavor and nutrition through advanced dehydration techniques. Our range includes fruits, vegetables, and spices, ideal for convenient, long-lasting, and healthy ingredients.
+                                    Husk N Spices offers premium dehydrated food products, preserving flavor and nutrition through advanced dehydration techniques. Our range includes fruits, vegetables, and spices, ideal for convenient, long-lasting, and healthy ingredients.
                                 </p>
                                 <div className="between-area-main-wrapper" data-aos-duration="1000" data-aos-delay="300">
                                     <div className="single">
                                         <h1 className="title">The challenge</h1>
                                         <p>
-                                            Developing Husk ‘N’ Spices presented unique challenges in establishing an intuitive, user-friendly platform for customers to browse and purchase premium spices. A significant challenge was ensuring the seamless integration of product catalog management and secure payment systems.
+                                            Developing Husk N Spices presented unique challenges in establishing an intuitive, user-friendly platform for customers to browse and purchase premium spices. A significant challenge was ensuring the seamless integration of product catalog management and secure payment systems.
                                             <br />
                                             The design needed to reflect the freshness and authenticity of the products while maintaining a modern, professional look. Additionally, real-time inventory updates were crucial to avoid overselling and ensure customer satisfaction.
                                             <br />
