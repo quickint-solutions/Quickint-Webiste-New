@@ -47,7 +47,7 @@ export default function TestimonialsThree() {
           {/* Section Title */}
           <div className="col-lg-12">
             <div className="testimonails-title-wrapper-between">
-              <h2 className="title">What they said about us</h2>
+              <h2 className="title">What Our Clients Say</h2>
               {/* Swiper Navigation Buttons */}
               <div className="swiper-btn">
                 <div className="swiper-button-prev">
