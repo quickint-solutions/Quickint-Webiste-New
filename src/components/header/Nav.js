@@ -109,7 +109,7 @@ function Nav() {
                                                         <div className="info">
                                                             <h4 className="title"> Mobile Development</h4>
                                                             <p>
-                                                                Elevate Your Business with Quickint Solutions' Mobile Development Services
+                                                                Elevate Your Business with Quickint Solutions Mobile Development Services
                                                             </p>
                                                         </div>
                                                     </Link>
@@ -153,7 +153,7 @@ function Nav() {
                                                         <div className="info">
                                                             <h4 className="title">Cloud Services</h4>
                                                             <p>
-                                                                Transform Your Business with Quickint Solutions' Cloud Services                                                            </p>
+                                                                Transform Your Business with Quickint Solutions Cloud Services                                                            </p>
                                                         </div>
                                                     </Link>
                                                 </li>

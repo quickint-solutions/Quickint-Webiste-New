@@ -128,7 +128,7 @@ function ServiceTwo() {
                                                 />
                                             </h3>
                                             <p className="disc">
-                                                Elevate Your Business with Quickint Solutions' Mobile Development Services
+                                                Elevate Your Business with Quickint Solutions Mobile Development Services
                                             </p>
                                         </a>
                                     </div>
@@ -184,7 +184,7 @@ function ServiceTwo() {
                                                 />
                                             </h3>
                                             <p className="disc">
-                                                Transform Your Business with Quickint Solutions' Cloud Services
+                                                Transform Your Business with Quickint Solutions Cloud Services
                                             </p>
                                         </a>
                                     </div>
