@@ -1,10 +1,9 @@
-"use client"; // ✅ Ensures this runs only on the client-side
+"use client";
 
 import { useEffect } from "react";
 
 const ClutchWidget = () => {
     useEffect(() => {
-        // Prevent multiple script insertions
         if (!document.querySelector("script[src='https://widget.clutch.co/static/js/widget.js']")) {
             const script = document.createElement("script");
             script.src = "https://widget.clutch.co/static/js/widget.js";
@@ -14,7 +13,16 @@ const ClutchWidget = () => {
     }, []);
 
     return (
-        <div className="text-center mt-4 mb-4" style={{ backgroundColor: "#ffffff", padding: "1rem", borderRadius: "8px" }}>
+        <div
+            className="text-center mt-4 mb-4"
+            style={{
+                backgroundColor: "#ffffff",
+                padding: "1rem",
+                borderRadius: "8px",
+                maxWidth: "320px",
+                margin: "0 auto", // centers the container
+            }}
+        >
             <div
                 className="clutch-widget"
                 data-url="https://widget.clutch.co"
