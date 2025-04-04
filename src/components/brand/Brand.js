@@ -39,7 +39,7 @@ const BrandArea = () => {
                                 {brandImages.map((image, index) => (
                                     <SwiperSlide key={index}>
                                         <div className="single-brand">
-                                            <img src={image} alt={`brand-${index + 1}`} />
+                                            <img className="brand-image" src={image} alt={`brand-${index + 1}`} />
                                         </div>
                                     </SwiperSlide>
                                 ))}
