@@ -30,7 +30,7 @@ const BrandArea = () => {
                         <div className="brand-area-main-wrapper swiper-area-main-wrapper">
                             <Swiper
                                 spaceBetween={0}
-                                slidesPerView={4}
+                                slidesPerView={6}
                                 loop={true}
                                 autoplay={{ delay: 3000, disableOnInteraction: false }}
                                 navigation={{
