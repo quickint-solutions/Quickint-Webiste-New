@@ -9,16 +9,16 @@ import "swiper/swiper-bundle.css";
 
 const BrandArea = () => {
     const brandImages = [
+        "assets/images/brand/sonylogo.png",
+        "assets/images/brand/publiclogo.png",
         "assets/images/brand/1deallogo.png",
         "assets/images/brand/carelogo.png",
+        "assets/images/brand/willwarelogo.png",
+        "assets/images/brand/greendoorslogo.png",
         "assets/images/brand/cattlefeed.png",
         "assets/images/brand/edgeinfinium.png",
-        "assets/images/brand/greendoorslogo.png",
         "assets/images/brand/hitechlogo.png",
         "assets/images/brand/maanlogo.png",
-        "assets/images/brand/publiclogo.png",
-        "assets/images/brand/sonylogo.png",
-        "assets/images/brand/willwarelogo.png",
     ];
 
     return (
@@ -33,9 +33,9 @@ const BrandArea = () => {
                                 loop={true}
                                 autoplay={{ delay: 3000, disableOnInteraction: false }}
                                 breakpoints={{
-                                    320: { slidesPerView: 2 },
-                                    768: { slidesPerView: 3 },
-                                    1024: { slidesPerView: 5 },
+                                    320: { slidesPerView: 1 },
+                                    768: { slidesPerView: 2 },
+                                    1024: { slidesPerView: 4 },
                                 }}
                                 className="mySwiper-testimonials-150"
                                 modules={[Navigation, Autoplay]}

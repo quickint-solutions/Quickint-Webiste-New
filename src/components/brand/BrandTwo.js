@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 // Install Swiper modules
@@ -21,20 +22,23 @@ const BrandArea = () => {
     ];
 
     return (
-        <div className="rts-brand-area-start rts-section-gapBottom">
+        <div className="rts-brand-area-start pt--80" dir="ltr">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="brand-area-main-wrapper" dir="ltr">
+                        <div className="swiper-area-main-wrapper">
                             <Swiper
                                 spaceBetween={20}
-                                slidesPerView={5}
+                                slidesPerView={4}
                                 loop={true}
+                                autoplay={{ delay: 3000, disableOnInteraction: false }}
                                 breakpoints={{
-                                    320: { slidesPerView: 2 },
-                                    768: { slidesPerView: 3 },
-                                    1024: { slidesPerView: 5 },
+                                    320: { slidesPerView: 1 },
+                                    768: { slidesPerView: 2 },
+                                    1024: { slidesPerView: 4 },
                                 }}
+                                className="mySwiper-testimonials-150"
+                                modules={[Navigation, Autoplay]}
                             >
                                 {brandImages.map((image, index) => (
                                     <SwiperSlide key={index}>
