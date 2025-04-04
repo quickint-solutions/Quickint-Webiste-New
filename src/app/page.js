@@ -23,8 +23,8 @@ export default function Home() {
       <ServiceTwo />
       <ServiceOne />
       <CaseStudies />
-      <TestimonialsTwo />
       <ClutchWidget />
+      <TestimonialsTwo />
       <BlogTwo />
       <CtaTwo />
       <FooterOne />
