@@ -18,7 +18,7 @@ function ServiceTwo() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="title-center-style-two">
-                                <h2 className="title">Our Services</h2>
+                                <h1 className="title">Our Services Innovative</h1>
                             </div>
                         </div>
                     </div>
