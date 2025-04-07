@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useParams } from "next/navigation";
 import BackToTop from "@/components/common/BackToTop";
-import Posts from '@/data/Posts.json';
+import Posts from "@/data/Posts.json";
 
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderOne from "@/components/header/HeaderOne";

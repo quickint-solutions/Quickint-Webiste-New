@@ -9,6 +9,7 @@ import CtaSix from "@/components/cta/CtaSix";
 import SingleDetails from "@/components/service-component/SingleDetails";
 import MoreSolutions from "@/components/service-component/MoreSolution";
 import HeaderOne from "@/components/header/HeaderOne";
+import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
 
 export default function Home() {
     return (
@@ -18,7 +19,7 @@ export default function Home() {
             <SingleDetails />
             <MoreSolutions />
             <FeatureTwo />
-            <TestimonialsFive />
+            <TestimonialsThree />
             <CtaSix />
             <FooterOne />
             <BackToTop />

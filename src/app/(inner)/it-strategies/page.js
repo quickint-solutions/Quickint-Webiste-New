@@ -6,6 +6,7 @@ import FeatureTwo from "@/components/feature/FeatureTwo";
 import TestimonialsFive from "@/components/testimonials/TestimonialsFive";
 import MoreSolutions from "@/components/service-component/MoreSolution";
 import HeaderOne from "@/components/header/HeaderOne";
+import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
 
 export default function Home() {
     return (
@@ -98,7 +99,7 @@ export default function Home() {
 
 
             <FeatureTwo />
-            <TestimonialsFive />
+            <TestimonialsThree />
             <>
                 {/* rts call to action area start */}
                 <div className="rts-call-to-action-area-about rts-section-gapTop">
