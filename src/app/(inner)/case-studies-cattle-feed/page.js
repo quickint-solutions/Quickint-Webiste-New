@@ -90,65 +90,49 @@ function page() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="case-studies-slider-wrapper">
-                                <div className="swiper-container">
-                                    <Swiper
-                                        spaceBetween={20} // Space between slides
-                                        slidesPerView={3} // Number of slides visible at a time
-                                        loop={true} // Enable looping
-                                        speed={1000}
-                                        centeredSlides={true}
-                                        autoplay={{ delay: 3000, disableOnInteraction: false }}
-                                        modules={[Autoplay]}
-                                        breakpoints={{
-                                            // Responsive breakpoints
-                                            640: { slidesPerView: 1 },
-                                            768: { slidesPerView: 2 },
-                                            1024: { slidesPerView: 3.4 },
-                                        }}
-                                    >
-                                        {/* Swiper slides */}
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/21.webp" alt="Case Study 21" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/22.webp" alt="Case Study 22" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/23.webp" alt="Case Study 23" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/24.webp" alt="Case Study 24" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/21.webp" alt="Case Study 21" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/22.webp" alt="Case Study 22" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/23.webp" alt="Case Study 23" />
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <div className="thumbnail-case">
-                                                <img src="/assets/images/case-studies/24.webp" alt="Case Study 24" />
-                                            </div>
-                                        </SwiperSlide>
-                                        {/* Add more slides as needed */}
-                                    </Swiper>
+                                <div
+                                    style={{
+                                        display: 'grid',
+                                        gridTemplateColumns: '1fr 1fr',
+                                        gap: '20px',
+                                    }}
+                                >
+                                    <div style={{ width: '100%', padding: '70px' }}>
+                                        <img
+                                            src="/assets/images/cattlefeed/cattle.jpg"
+                                            alt="Case Study 1"
+                                            style={{
+                                                width: '100%',
+                                                height: 'auto',
+                                                objectFit: 'cover',
+                                                borderRadius: '12px',
+                                            }}
+                                        />
+                                    </div>
+                                    <div style={{ width: '100%', padding: '70px' }}>
+                                        <img
+                                            src="/assets/images/cattlefeed/cattle1.png"
+                                            alt="Case Study 2"
+                                            style={{
+                                                width: '100%',
+                                                height: 'auto',
+                                                objectFit: 'cover',
+                                                borderRadius: '12px',
+                                            }}
+                                        />
+                                    </div>
+                                    <div style={{ width: '100%', padding: '70px' }}>
+                                        <img
+                                            src="/assets/images/cattlefeed/cattle2.png"
+                                            alt="Case Study 3"
+                                            style={{
+                                                width: '100%',
+                                                height: 'auto',
+                                                objectFit: 'cover',
+                                                borderRadius: '12px',
+                                            }}
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
