@@ -125,7 +125,7 @@ function FooterOne() {
                                 <div className="social-copyright-area">
                                     <ul>
                                         <li aria-label="Visit our Facebook page">
-                                            <Link href="">
+                                            <Link href="/#">
                                                 <i className="fa-brands fa-facebook-f" />
                                             </Link>
                                         </li>
