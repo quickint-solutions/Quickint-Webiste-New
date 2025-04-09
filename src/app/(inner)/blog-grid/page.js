@@ -6,6 +6,8 @@ import FooterOne from "@/components/footer/FooterOne";
 import Posts from '@/data/Posts.json';
 import BlogGridMain from './BlogGridMain';
 import HeaderOne from "@/components/header/HeaderOne";
+import CtaTwo from "@/components/cta/CtaTwo";
+
 function page() {
     return (
         <>
@@ -17,12 +19,13 @@ function page() {
                             <div className="col-lg-12">
                                 <div className="career-page-single-banner blog-page">
                                     <h1 className="title">The Quickint Blog</h1>
+                                    <p className="subtitle">Our official blog with news, technology advice, and business culture.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="rts-blog-area rts-section-gapTop position-relative">
+                <div className="rts-blog-area position-relative" style={{ marginBottom: 100 }}>
                     <div className="container">
                         <div className="row g-5">
                             {Posts.map((blog, index) => {
@@ -76,6 +79,7 @@ function page() {
                     </div>
                 </div>
             </>
+            <CtaTwo />
 
             <BackToTop />
             <FooterOne />
