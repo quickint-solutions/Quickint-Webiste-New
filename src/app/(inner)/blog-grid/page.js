@@ -16,7 +16,7 @@ function page() {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="career-page-single-banner blog-page">
-                                    <h1 className="title">Our Latest News</h1>
+                                    <h1 className="title">The Quickint Blog</h1>
                                 </div>
                             </div>
                         </div>
