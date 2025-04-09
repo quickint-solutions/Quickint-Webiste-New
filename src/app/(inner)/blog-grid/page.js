@@ -26,24 +26,27 @@ function page() {
                     <div className="container">
                         <div className="row g-5">
                             {Posts.map((blog, index) => {
+                                const blogTitle =
+                                    blog.title.split(' ').length > 5
+                                        ? blog.title.split(' ').slice(0, 5).join(' ') + '...'
+                                        : blog.title;
+
                                 return (
                                     <div key={index} className="col-lg-4 col-md-6 col-sm-12">
                                         <div className="single-blog-area-start border-none">
-                                            {
-                                                <BlogGridMain
-                                                    blogCategory={blog.category}
-                                                    Slug={blog.slug}
-                                                    blogImage={blog.image}
-                                                    authorImg={blog.authorImg}
-                                                    blogTitle={blog.title}
-                                                    blogAuthor={blog.author}
-                                                    blogPublishedDate={blog.publishedDate}
-                                                />
-                                            }
+                                            <BlogGridMain
+                                                blogCategory={blog.category}
+                                                Slug={blog.slug}
+                                                blogImage={blog.image}
+                                                authorImg={blog.authorImg}
+                                                blogTitle={blogTitle}
+                                                blogAuthor={blog.author}
+                                                blogPublishedDate={blog.publishedDate}
+                                            />
                                         </div>
                                     </div>
-                                )
-                            }).slice(0, 6)}
+                                );
+                            }).slice(0, 9)}
                         </div>
                         {/* <div className="row mt--50">
                             <div className="col-lg-12">
