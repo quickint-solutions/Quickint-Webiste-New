@@ -6,7 +6,7 @@ import FooterOne from "@/components/footer/FooterOne";
 import ServiceSeven from "@/components/services/ServiceSeven";
 import ServiceList from "@/components/services/ServiceList";
 import SolutionCounter from "@/components/services/SolutionCounter";
-import LargeImage from "@/components/large-video/LargeImage";
+// import LargeImage from "@/components/large-video/LargeImage";
 import FeatureTwo from "@/components/feature/FeatureTwo";
 import CtaFive from "@/components/cta/CtaFive";
 import TestimonialsFive from "@/components/testimonials/TestimonialsFive";
@@ -19,7 +19,7 @@ export default function Home() {
             <ServiceBanner />
             <ServiceSeven />
             <ServiceList />
-            <LargeImage />
+            {/* <LargeImage /> */}
             <SolutionCounter />
             <FeatureTwo />
             <CtaFive />
