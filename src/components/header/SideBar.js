@@ -34,7 +34,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
 
 
               <li className="has-droupdown">
-                <Link href="#" className="main" onClick={() => toggleMenu(3)}>
+                <Link href="/servicepage" className="main" onClick={() => toggleMenu(3)}>
                   Services
                 </Link>
                 <ul className={`submenu ${openMenu === 3 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>

@@ -61,10 +61,9 @@ function BannerTwo() {
                                         />
                                     </a>
                                     <a
-                                        href="#"
+                                        href="/servicepage"
                                         className="rts-btn btn-border wow fadeInUp"
                                         data-wow-delay=".5s"
-                                        target="_blank"
                                     >
                                         Services
                                         <ReactSVG

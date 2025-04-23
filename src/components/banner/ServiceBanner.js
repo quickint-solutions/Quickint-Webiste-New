@@ -16,7 +16,7 @@ function ServiceBanner() {
                                 >
                                     <a href="#">Home</a>
                                     <i className="fa-regular fa-chevron-right" />
-                                    <a className="current" href="#">
+                                    <a className="current" href="/servicepage">
                                         Services
                                     </a>
                                 </div>
