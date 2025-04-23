@@ -93,7 +93,7 @@ export default function Home() {
                                     className="rts-btn btn-primary wow fadeInUp"
                                     data-wow-delay=".5s"
                                 >
-                                    View Solutions
+                                    Book Call it should be open google booking link
                                     <ReactSVG
                                         src="assets/images/service/icons/13.svg"
                                         alt="arrow"
