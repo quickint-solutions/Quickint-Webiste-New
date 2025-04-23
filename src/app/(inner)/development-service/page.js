@@ -7,6 +7,7 @@ import TestimonialsFive from "@/components/testimonials/TestimonialsFive";
 import MoreSolutions from "@/components/service-component/MoreSolution";
 import HeaderOne from "@/components/header/HeaderOne";
 import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
+import ServiceSix from "@/components/services/ServiceSix";
 
 export default function Home() {
     return (
@@ -96,9 +97,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <MoreSolutions />
-
-
+            <ServiceSix />
             <FeatureTwo />
             <TestimonialsThree />
             <>

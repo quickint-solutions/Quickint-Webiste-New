@@ -10,6 +10,7 @@ import SingleDetails from "@/components/service-component/SingleDetails";
 import MoreSolutions from "@/components/service-component/MoreSolution";
 import HeaderOne from "@/components/header/HeaderOne";
 import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
+import ServiceSix from "@/components/services/ServiceSix";
 
 export default function Home() {
     return (
@@ -17,7 +18,7 @@ export default function Home() {
             <HeaderOne />
             <ServiceSingle />
             <SingleDetails />
-            <MoreSolutions />
+            <ServiceSix />
             <FeatureTwo />
             <TestimonialsThree />
             <CtaSix />

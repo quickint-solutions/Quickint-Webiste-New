@@ -8,6 +8,7 @@ import MoreSolutions from "@/components/service-component/MoreSolution";
 import Head from "next/head";
 import HeaderOne from "@/components/header/HeaderOne";
 import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
+import ServiceSix from "@/components/services/ServiceSix";
 
 export default function Home() {
     return (
@@ -99,8 +100,7 @@ export default function Home() {
 
 
             </div>
-            <MoreSolutions />
-
+            <ServiceSix />
 
             <FeatureTwo />
             <TestimonialsThree />
