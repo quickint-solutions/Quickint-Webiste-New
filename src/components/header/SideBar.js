@@ -39,7 +39,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
                 </Link>
                 <ul className={`submenu ${openMenu === 3 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
                   <li>
-                    <Link href="/service-single">Software Development</Link>
+                    <Link href="/software-development">Software Development</Link>
                   </li>
                   <li>
                     <Link href="/cyber-security-service">Cyber Security</Link>
