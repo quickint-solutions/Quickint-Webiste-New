@@ -258,7 +258,7 @@ export default function BlogDetails() {
                 </div>
                 {/* single wizered End */}
                 {/* single wizered start */}
-                <div className="rts-single-wized Recent-post">
+                {/* <div className="rts-single-wized Recent-post">
                   <div className="wized-header">
                     <h5 className="title">Gallery Posts</h5>
                   </div>
@@ -288,7 +288,7 @@ export default function BlogDetails() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
               </div>
             </div>
