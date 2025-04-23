@@ -12,6 +12,7 @@ import CtaTwo from "@/components/cta/CtaTwo";
 import dynamic from 'next/dynamic';
 import ServiceOne from "@/components/services/ServiceOne";
 import CaseStudies from "@/components/casestudies/CaseStudies";
+import TestimonialsThree from "@/components/testimonials/TestimonialsThree";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       <ServiceTwo />
       <ServiceOne />
       <CaseStudies />
-      <TestimonialsTwo />
+      <TestimonialsThree />
       <BlogTwo />
       <CtaTwo />
       <FooterOne />
