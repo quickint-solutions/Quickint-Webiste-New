@@ -32,7 +32,7 @@ function Nav() {
                                                 <li>
                                                     <Link
                                                         className="single-service-area-wrapper"
-                                                        href="/service-single"
+                                                        href="/software-development"
                                                     >
                                                         <div className="icon">
                                                             <img

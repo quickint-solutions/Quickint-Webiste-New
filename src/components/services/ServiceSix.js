@@ -39,7 +39,7 @@ function ServiceSix() {
                                         <img src="assets/images/service/icons/15.png" style={{ width: "35px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
-                                        <a href="service-single">
+                                        <a href="/software-development">
                                             <h3 className="title">
                                                 Software Development
                                                 <img

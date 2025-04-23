@@ -26,7 +26,7 @@ function FooterOne() {
                                         <p className="parent">Services</p>
                                         <ul>
                                             <li>
-                                                <Link href="/service-single">Software Development</Link>
+                                                <Link href="/software-development">Software Development</Link>
                                             </li>
                                             <li>
                                                 <Link href="/it-strategies">Web Development</Link>
