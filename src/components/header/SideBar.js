@@ -59,8 +59,8 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
                 </ul>
               </li>
               <li>
-                <Link href="case-studies" className="main">
-                  Case Studies
+                <Link href="/our-works" className="main">
+                  Our Works
                 </Link>
               </li>
               <li>

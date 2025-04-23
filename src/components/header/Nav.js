@@ -238,8 +238,8 @@ function Nav() {
                             </div>
                         </li>
                         <li>
-                            <Link className="nav-link" href="/case-studies">
-                                Case Studies
+                            <Link className="nav-link" href="/our-works">
+                                Our Works
                             </Link>
                         </li>
 
