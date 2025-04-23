@@ -13,7 +13,7 @@ function ServiceTwo() {
         <div>
 
             {/* solution area start */}
-            <div className="rts-solution-area rts-section-gap">
+            <div className="rts-solution-area rts-section-gap" style={{ marginTop: "-125px" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
