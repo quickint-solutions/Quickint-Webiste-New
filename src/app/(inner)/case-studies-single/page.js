@@ -317,11 +317,12 @@ function page() {
                                 and how Quickint Solutions can elevate your business technology.
                             </p>
                             <a
-                                target="_blank"
+                                target='_blank'
                                 href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ39f071tVvYbKUAnVaFk3HQG4uAEoL-CjHGygO7nfiRCA6lwLnehAPwYCHMdH5s5S7f8-WzjLse"
-                                className="rts-btn btn-primary" data-aos-duration="1000" data-aos-delay="500"
+                                className="rts-btn btn-primary wow fadeInUp"
+                                data-wow-delay=".5s"
                             >
-                                View Solutions
+                                Book Call it should be open google booking link
                                 <img
                                     className="injectable"
                                     src="assets/images/service/icons/13.svg"

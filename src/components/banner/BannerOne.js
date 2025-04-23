@@ -38,7 +38,7 @@ function BannerOne() {
                                     href="service.html"
                                     className="rts-btn btn-primary" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"
                                 >
-                                    View Solutions
+                                    Book Call it should be open google booking link
                                     <ReactSVG
                                         className="injectable"
                                         src="assets/images/banner/01.svg"

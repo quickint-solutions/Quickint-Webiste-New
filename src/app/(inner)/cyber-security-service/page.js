@@ -120,7 +120,7 @@ export default function Home() {
                                     className="rts-btn btn-primary wow fadeInUp"
                                     data-wow-delay=".5s"
                                 >
-                                    View Solutions
+                                    Book Call it should be open google booking link
                                     <img
                                         className="injectable"
                                         src="assets/images/service/icons/13.svg"
