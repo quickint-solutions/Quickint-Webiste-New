@@ -5,6 +5,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import ClutchWidget from "@/app/(inner)/clutch/page";
 
 export default function TestimonialsThree() {
   const testimonials = [
@@ -44,6 +45,7 @@ export default function TestimonialsThree() {
     <div className="rts-testimonials-area-about rts-section-gap bg-dark-1" dir="ltr">
       <div className="container">
         <div className="row">
+          <ClutchWidget />
           {/* Section Title */}
           <div className="col-lg-12">
             <div className="testimonails-title-wrapper-between">
