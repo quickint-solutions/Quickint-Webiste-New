@@ -128,7 +128,7 @@ function Nav() {
                                                                 IT Consulting & Advisory
                                                             </h4>
                                                             <p>
-                                                                Unlocking Success with IT Consulting &amp; Advisory Services
+                                                                Unlocking Success with Expert IT Consulting & Strategic Advisory Services
                                                             </p>
                                                         </div>
                                                     </Link>
