@@ -35,6 +35,29 @@ function BannerCaseStudies() {
                 <div className="container">
                     <div className="row g-80">
                         <div
+                            className="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
+                        >
+                            <div className="single-case-studies">
+                                <a href="/case-studies-sony" className="thumbnail">
+                                    <img src="assets/images/case-studies/Sony-world-logo-1024x599.png" alt="image" />
+                                </a>
+                                <div className="inner-content">
+                                    <span>Industry:Modern Electronics</span>
+                                    <a href="/case-studies-sony">
+                                        <h3 className="title animated fadeIn">Sony World
+                                        </h3>
+                                    </a>
+                                    <a href="/case-studies-sony" className="rts-btn btn-border">
+                                        View case study
+                                        <ReactSVG
+                                            src="assets/images/service/icons/13.svg"
+                                            alt="arrow"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
                             className="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
                         >
                             <div className="single-case-studies">
@@ -149,29 +172,7 @@ function BannerCaseStudies() {
                                 </div>
                             </div>
                         </div>
-                        <div
-                            className="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
-                        >
-                            <div className="single-case-studies">
-                                <a href="/case-studies-sony" className="thumbnail">
-                                    <img src="assets/images/case-studies/Sony-world-logo-1024x599.png" alt="image" />
-                                </a>
-                                <div className="inner-content">
-                                    <span>Industry:Modern Electronics</span>
-                                    <a href="/case-studies-sony">
-                                        <h3 className="title animated fadeIn">Sony World
-                                        </h3>
-                                    </a>
-                                    <a href="/case-studies-sony" className="rts-btn btn-border">
-                                        View case study
-                                        <ReactSVG
-                                            src="assets/images/service/icons/13.svg"
-                                            alt="arrow"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+
                         <div
                             className="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
                         >
