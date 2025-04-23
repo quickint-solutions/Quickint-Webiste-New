@@ -8,11 +8,10 @@ function Wedo() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <div className="what-we-do-wrapper-about">
+                            <div className="what-we-do-wrapper-about2">
                                 <p className="disc">
                                     QuickInt Solutions is a leading IT solutions company that delivers innovative technology services to businesses of all sizes. We specialize in Cloud Computing, Cybersecurity, Data Analytics, Web & Mobile Development, and Custom Software Development, helping organizations optimize their operations and drive digital transformation.
                                 </p>
-
                             </div>
                         </div>
                     </div>
