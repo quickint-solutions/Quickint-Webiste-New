@@ -20,7 +20,7 @@ function Nav() {
                             </Link>
                         </li>
                         <li className="has-dropdown position-static with-megamenu">
-                            <Link className="nav-link" href="/">
+                            <Link className="nav-link" href="/servicepage">
                                 Service{" "}
                                 <i className="fa-duotone fa-regular fa-chevron-down" />
                             </Link>
