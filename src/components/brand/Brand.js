@@ -26,7 +26,10 @@ const BrandArea = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="swiper-area-main-wrapper">
+                        <div className="section-title text-center">
+                            <h1 class="title">The Client Logo</h1>
+                        </div>
+                        <div className="swiper-area-main-wrapper mt--80">
                             <Swiper
                                 spaceBetween={20}
                                 slidesPerView={4}
