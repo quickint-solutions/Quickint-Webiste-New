@@ -244,7 +244,7 @@ function Nav() {
                         </li>
 
                         <li>
-                            <Link className="nav-link" href="/blog-grid">
+                            <Link className="nav-link" href="/blog">
                                 <i className="fa-sharp fa-regular" />
                                 Blog
                             </Link>

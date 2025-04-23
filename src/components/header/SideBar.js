@@ -64,7 +64,7 @@ function SideBar({ isSidebarOpen, toggleSidebar }) {
                 </Link>
               </li>
               <li>
-                <Link href="/blog-grid" className="main" onClick={() => toggleMenu(4)}>
+                <Link href="/blog" className="main" onClick={() => toggleMenu(4)}>
                   Blog
                 </Link>
               </li>
