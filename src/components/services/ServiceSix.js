@@ -36,7 +36,7 @@ function ServiceSix() {
                             <div className="single-service-style-two">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src="assets/images/service/icons/15.png" style={{ width: "35px" }} alt="service" />
+                                        <img src="/assets/images/service/icons/27.svg" alt="service" />
                                     </div>
                                     <div className="bottom">
                                         <a href="service-single">
@@ -64,7 +64,7 @@ function ServiceSix() {
                             <div className="single-service-style-two">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src="assets/images/service/icons/14.png" style={{ width: "35px" }} alt="service" />
+                                        <img src="/assets/images/service/icons/24.svg" alt="service" />
                                     </div>
                                     <div className="bottom">
                                         <a href="/cyber-security-service">
@@ -92,7 +92,7 @@ function ServiceSix() {
                             <div className="single-service-style-two">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src="assets/images/service/icons/12.png" style={{ width: "40px" }} alt="service" />
+                                        <img src="/assets/images/service/icons/23.svg" alt="service" />
                                     </div>
                                     <div className="bottom">
                                         <a href="it-strategies">
@@ -121,7 +121,7 @@ function ServiceSix() {
                             <div className="single-service-style-two">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src="assets/images/service/icons/16.png" style={{ width: "28px" }} alt="service" />
+                                        <img src="/assets/images/service/icons/30.svg" alt="service" />
                                     </div>
                                     <div className="bottom">
                                         <a href="/development-service">
@@ -149,7 +149,7 @@ function ServiceSix() {
                             <div className="single-service-style-two">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src="assets/images/service/icons/13.jpg" style={{ width: "40px" }} alt="service" />
+                                        <img src="/assets/images/service/icons/26.svg" alt="service" />
                                     </div>
                                     <div className="bottom">
                                         <a href="/it-consulting-service">
@@ -177,7 +177,7 @@ function ServiceSix() {
                             <div className="single-service-style-two">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src="assets/images/service/icons/12.png" style={{ width: "40px" }} alt="service" />
+                                        <img src="/assets/images/service/icons/22.svg" style={{ width: "40px" }} alt="service" />
                                     </div>
                                     <div className="bottom">
                                         <a href="/cloud-service">
