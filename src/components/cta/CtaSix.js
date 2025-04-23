@@ -15,7 +15,7 @@ function CtaSix() {
                                     Call us +1 328 713 349 or click the button below to get in touch
                                 </p>
                                 <a
-                                    href="#"
+                                    href="/contact"
                                     className="rts-btn btn-primary wow fadeInUp"
                                     data-wow-delay=".5s"
                                 >
