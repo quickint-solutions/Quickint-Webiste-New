@@ -114,7 +114,7 @@ export default function BlogDetails() {
                 {/* single wizered start */}
                 <div className="rts-single-wized search">
                   <div className="wized-header">
-                    <h5 className="title">Search Hear</h5>
+                    <h5 className="title">Search Here</h5>
                   </div>
                   <div className="wized-body">
                     <div className="rts-search-wrapper">
