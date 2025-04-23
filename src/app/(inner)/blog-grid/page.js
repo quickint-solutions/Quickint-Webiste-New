@@ -36,7 +36,7 @@ function page() {
 
                                 return (
                                     <div key={index} className="col-lg-4 col-md-6 col-sm-12">
-                                        <div className="single-blog-area-start border-none">
+                                        <div className="single-blog-area-start2 border-none">
                                             <BlogGridMain
                                                 blogCategory={blog.category}
                                                 Slug={blog.slug}
