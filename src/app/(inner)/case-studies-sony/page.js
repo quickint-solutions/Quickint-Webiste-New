@@ -35,8 +35,9 @@ function page() {
                                             <span>Industry: Modern Electronics</span>
                                         </div>
                                         <p>
-                                            Core to growing a gaming company is a robust payments infrastructure.
+                                            Sony World pioneers innovation in modern electronics, delivering seamless technology experiences.
                                         </p>
+
 
                                         <a href="#" className="rts-btn btn-border">
                                             View website
